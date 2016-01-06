@@ -116,10 +116,30 @@ Random injury report per sport
 
 Use teamoji(tm) to get a list of player deets.
 
+![Players](/screenshots/players.gif?raw=true "Players")
+
 Celtics
 
-:four_leaf_clover:
+:four_leaf_clover: :basketball:
 
-etc
+76ers
 
-Coming soon.
+:statue_of_liberty: :basketball:
+
+All bears!
+
+![Bears](/screenshots/players_bears.gif?raw=true "Bears")
+
+Chicago Bears
+
+:bear: :football:
+
+Memphis Grizzlies
+
+:bear: :basketball:
+
+Boston Bruins
+
+:bear: :ice_hockey_stick_and_puck:
+
+More teams coming soon.
