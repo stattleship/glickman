@@ -1,0 +1,125 @@
+GIT
+  remote: https://github.com/stattleship/stattleship-ruby.git
+  revision: 03c70892f92fc0660e1c8bb93c5987c9a57c909d
+  specs:
+    stattleship-ruby (0.1.0)
+      addressable (~> 2.4)
+      dotenv (~> 2.0, >= 2.0.2)
+      link_header (~> 0.0.8)
+      multi_json (~> 1.11, >= 1.11.2)
+      oj (~> 2.14, >= 2.14.2)
+      oj_mimic_json (~> 1.0, >= 1.0.1)
+      ordinalize (~> 0.0.3)
+      roar (~> 1.0, >= 1.0.4)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (4.2.5)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    addressable (2.4.0)
+    diff-lcs (1.2.5)
+    dotenv (2.0.2)
+    eventmachine (1.0.8)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.2)
+      faraday (>= 0.7.4, < 0.10)
+    faraday_middleware-parse_oj (0.3.0)
+      faraday (~> 0.9.0)
+      faraday_middleware (~> 0.9.1)
+      oj (~> 2.0)
+    faye-websocket (0.10.2)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    foreman (0.78.0)
+      thor (~> 0.19.1)
+    giphy (2.0.2)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.9)
+      faraday_middleware-parse_oj (~> 0.3)
+      launchy (~> 2.4)
+    gli (2.13.4)
+    hashie (3.4.3)
+    humanize (1.1.0)
+    i18n (0.7.0)
+    json (1.8.3)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    link_header (0.0.8)
+    minitest (5.8.3)
+    multi_json (1.11.2)
+    multipart-post (2.0.0)
+    oj (2.14.3)
+    oj_mimic_json (1.0.1)
+    ordinalize (0.0.3)
+      humanize
+    puma (2.15.3)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (10.4.2)
+    representable (2.3.0)
+      uber (~> 0.0.7)
+    roar (1.0.4)
+      representable (>= 2.0.1, < 2.4.0)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.1)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    slack-ruby-bot (0.5.5)
+      activesupport
+      faye-websocket
+      giphy (~> 2.0.2)
+      hashie
+      slack-ruby-client (>= 0.5.0)
+    slack-ruby-client (0.5.1)
+      faraday
+      faraday_middleware
+      gli
+      json
+      websocket-driver
+    thor (0.19.1)
+    thread_safe (0.3.5)
+    tilt (2.0.2)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    uber (0.0.15)
+    websocket-driver (0.6.3)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  foreman
+  puma
+  rack-test
+  rake
+  rspec
+  sinatra
+  slack-ruby-bot
+  stattleship-ruby!
+
+BUNDLED WITH
+   1.10.6
