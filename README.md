@@ -29,13 +29,24 @@ You can get a Stattleship API key at [http://www.stattleship.com](http://www.sta
 
 # Commands
 
+Glickman knows a good deal about sports.
+
+![What's hot in basketball](/screenshots/fire_basketball.gif?raw=true "What's hot in basketball")
+
+
 ## Player Game Log
 
 Random player game log per sport
 
+![Basketball Game Log](/screenshots/basketball_player_game_log.gif?raw=true "Basketball Game Log")
+
 :basketball: first_name last_name
 
 :football: first_name last_name
+
+
+![Hockey Game Log](/screenshots/hockey_player_game_log.gif?raw=true "Hockey Game Log")
+
 
 :ice_hockey_stick_and_puck: first_name last_name
 
@@ -48,6 +59,8 @@ For example:
 :ice_hockey_stick_and_puck: tyler seguin
 
 ## Feats
+
+![Feats in action](/screenshots/feats.gif?raw=true "Feats in action")
 
 :tophat: Hat tricks in hockey
 
@@ -91,8 +104,22 @@ In-progress game scores per sport
 
 Random injury report per sport
 
+![Injury report](/screenshots/injuries.gif?raw=true "Injury report")
+
 :face_with_head_bandage: :basketball:
 
 :face_with_head_bandage: :football:
 
 :face_with_head_bandage: :ice_hockey_stick_and_puck:
+
+## Players
+
+Use teamoji(tm) to get a list of player deets.
+
+Celtics
+
+:four_leaf_clover:
+
+etc
+
+Coming soon.
