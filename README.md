@@ -34,13 +34,17 @@ You can get a Stattleship API key at [http://www.stattleship.com](http://www.sta
 Random player game log per sport
 
 :basketball: first_name last_name
+
 :football: first_name last_name
+
 :ice_hockey_stick_and_puck: first_name last_name
 
 For example:
 
 :basketball: Lebron James
+
 :football: tom brady
+
 :ice_hockey_stick_and_puck: tyler seguin
 
 ## Feats
@@ -48,26 +52,39 @@ For example:
 :tophat: Hat tricks in hockey
 
 :fire: :basketball:
+
 :fire: :football:
+
 :fire: :ice_hockey_stick_and_puck:
 
 ## Stat Leaders
 
-:doughnut: Goalie shutout leaders
+Goalie shutout leaders
 
-:runner: Rusing yard leaders
+:doughnut:
+
+Rusing yard leaders
+
+:runner:
 
 ## Top Stats
 
-:rain_cloud: Top field goals made basketball performances
-:thunder_cloud_and_rain: Top three pointers basketball performances
+Top field goals made basketball performances
+
+:rain_cloud:
+
+Top three pointers basketball performances
+
+:thunder_cloud_and_rain:
 
 ## Games/Scores
 
 In-progress game scores per sport
 
 :mega: :basketball:
+
 :mega: :football:
+
 :mega: :ice_hockey_stick_and_puck:
 
 ## Injuries
@@ -75,5 +92,7 @@ In-progress game scores per sport
 Random injury report per sport
 
 :face_with_head_bandage: :basketball:
+
 :face_with_head_bandage: :football:
+
 :face_with_head_bandage: :ice_hockey_stick_and_puck:
