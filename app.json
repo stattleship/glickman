@@ -1,0 +1,25 @@
+{
+  "name": "Glickman",
+  "description": "Glickman is your statmoji(tm) sports slackbot powered by the Stattleship API.",
+  "keywords": [
+    "sports",
+    "ruby",
+    "slack"
+  ],
+  "website": "https://www.stattleship.com/",
+  "repository": "https://github.com/stattleship/glickman",
+  "env": {
+    "SLACK_API_TOKEN": {
+      "description": "Token to connect bot to the Slack Real Time Messaging API.",
+      "value": "",
+    },
+    "STATTLESHIP_ACCESS_TOKEN": {
+      "description": "Your Stattleship API token.",
+      "value": ""
+    }
+  },
+  "image": "heroku/ruby",
+  "addons": [
+    "papertrail:choklad"
+  ]
+}

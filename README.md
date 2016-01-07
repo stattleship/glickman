@@ -16,6 +16,10 @@ After bundling and setting up your `.env` file the the API keys, you should be a
 
 Note: current uses a pre-release version the the [stattleship-ruby](https://github.com/stattleship/stattleship-ruby) gem.
 
+## Heroku Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Stattleship API Key
 
 You'll need a `.env` with API keys
