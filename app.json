@@ -11,7 +11,7 @@
   "env": {
     "SLACK_API_TOKEN": {
       "description": "Token to connect bot to the Slack Real Time Messaging API.",
-      "value": "",
+      "value": ""
     },
     "STATTLESHIP_ACCESS_TOKEN": {
       "description": "Your Stattleship API token.",
