@@ -94,15 +94,26 @@ Top three pointers basketball performances
 
 :thunder_cloud_and_rain:
 
-## Games/Scores
+## Schedules
 
-In-progress game scores per sport
+![Schedules](/screenshots/schedules.gif?raw=true "Schedules")
+
+:calendar: :basketball:
+
+:calendar: :football:
+
+:calendar: :ice_hockey_stick_and_puck:
+
+## Scores
+
+In-progress and recently ended game scores per sport
 
 :mega: :basketball:
 
 :mega: :football:
 
 :mega: :ice_hockey_stick_and_puck:
+
 
 ## Injuries
 
@@ -147,3 +158,21 @@ Boston Bruins
 :bear: :ice_hockey_stick_and_puck:
 
 More teams coming soon.
+
+## Frivolities
+
+:eggplant:
+
+:pizza:
+
+Easter eggs!
+
+## GIFs
+
+Random giphy for Boston Celtics ...
+
+:movie_camera: :four_leaf_clover: :basketball:
+
+... and Bruins.
+
+:movie_camera: :bear: :ice_hockey_stick_and_puck:
