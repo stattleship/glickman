@@ -17,12 +17,20 @@ module SlackGlickman
 
             games = const_get("Stattleship::#{sport.capitalize}Games").fetch(params: query_params)
 
-            scores = games.map { |game| "#{game.scoreline} in #{game.city}" }
+            in_progress_scores = games.map { |game| "#{game.scoreline} in #{game.city}" }
 
-            if scores == []
-              send_message client, data.channel, ':tv: Nothing on yet'
+            query_params.status = 'ended'
+            query_params.since = '1 day ago'
+
+            games = const_get("Stattleship::#{sport.capitalize}Games").fetch(params: query_params)
+
+            ended_scores = games.map { |game| "#{game.scoreline} on #{game.started_at.strftime('%A')}" }
+
+            if in_progress_scores == []
+              scores = (in_progress_scores + ended_scores).join("\n")
+              send_message client, data.channel, ":tv: Nothing on yet\n #{scores}"
             else
-              scores = scores.join("\n")
+              scores = in_progress_scores.join("\n")
               send_message client, data.channel, ":mega: Here's your latest :#{statmoji}: scores! \n #{scores}"
             end
           end
