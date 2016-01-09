@@ -1,5 +1,7 @@
 # glickman
 
+[![Join the chat at https://gitter.im/stattleship/glickman](https://badges.gitter.im/stattleship/glickman.svg)](https://gitter.im/stattleship/glickman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Glickman is your statmoji(tm) sports slackbot powered by the Stattleship API. [https://www.stattleship.com](https://www.stattleship.com).
 
 Its namesake is [Marty Glickman](https://en.wikipedia.org/wiki/Marty_Glickman), a pioneering American radio announcer and sportscaster.
