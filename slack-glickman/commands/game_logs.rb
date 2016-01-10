@@ -33,6 +33,11 @@ module SlackGlickman
                         end
 
           query_params.player_id = player_slug
+
+          if statmoji == 'football' then
+            query_params.interval_type = 'wildcard'
+          end
+
           game_logs = const_get("Stattleship::#{sport.capitalize}GameLogs").fetch(params: query_params)
 
           msg = game_logs.sample.to_sentence

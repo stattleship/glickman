@@ -15,6 +15,10 @@ module SlackGlickman
             query_params.status = 'upcoming'
             query_params.on = 'today'
 
+            if statmoji == 'football' then
+              query_params.interval_type = 'wildcard'
+            end
+
             games = const_get("Stattleship::#{sport.capitalize}Games").fetch(params: query_params)
 
             games = games.map { |game| "#{game.name} in #{game.city}" }

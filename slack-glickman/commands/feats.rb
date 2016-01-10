@@ -23,6 +23,10 @@ module SlackGlickman
             query_params.level_up = 3
             query_params.since = 'yesterday'
 
+            if statmoji == 'football' then
+              query_params.interval_type = 'wildcard'
+            end
+
             feats = const_get("Stattleship::#{sport.capitalize}Feats").fetch(params: query_params).map(&:to_sentence).join("\n")
 
             send_message client, data.channel, ":fire: What's hot in :#{statmoji}: since #{query_params.since }! \n #{feats}"

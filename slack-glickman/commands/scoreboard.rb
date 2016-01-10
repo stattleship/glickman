@@ -15,6 +15,10 @@ module SlackGlickman
             query_params = const_get("Stattleship::Params::#{sport.capitalize}GamesParams").new
             query_params.status = 'in_progress'
 
+            if statmoji == 'football' then
+              query_params.interval_type = 'wildcard'
+            end
+
             games = const_get("Stattleship::#{sport.capitalize}Games").fetch(params: query_params)
 
             in_progress_scores = games.map { |game| "#{game.scoreline} in #{game.city}" }
