@@ -1,5 +1,9 @@
 require 'stattleship'
 require 'slack-ruby-bot'
+
+require 'slack-glickman/data/cache'
+require 'slack-glickman/app'
+
 require 'slack-glickman/commands/injuries'
 require 'slack-glickman/commands/feats'
 require 'slack-glickman/commands/frivolities'
@@ -12,4 +16,3 @@ require 'slack-glickman/commands/stat_leaders'
 require 'slack-glickman/commands/top_stats'
 require 'slack-glickman/commands/venues'
 require 'slack-glickman/commands/videos'
-require 'slack-glickman/app'

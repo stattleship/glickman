@@ -24,6 +24,7 @@ module SlackGlickman
 
         command ":game_die:" do |client, data, _match|
           # TODO - totally random
+          send_message client, data.channel, ":game_die:"
         end
 
         command ":pizza:" do |client, data, _match|
