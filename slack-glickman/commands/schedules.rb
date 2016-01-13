@@ -28,10 +28,10 @@ module SlackGlickman
               games = games.map { |game| "#{game.name} in #{game.city}" }
 
               if games == []
-                send_message client, data.channel, ":calendar: No #{statmoji} #{teamoji} games today."
+                send_message client, data.channel, ":calendar: No #{teamoji} #{statmoji} games today."
               else
                 games = games.join("\n")
-                send_message client, data.channel, ":calendar: Upcoming #{statmoji} #{teamoji} games! \n #{games}"
+                send_message client, data.channel, ":calendar: Upcoming #{teamoji} #{statmoji} games! \n #{games}"
               end
             end
           end
