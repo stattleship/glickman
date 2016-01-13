@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/stattleship/stattleship-ruby.git
-  revision: a39aafb60229dd6406c9518aab8f27bcc72d744c
+  revision: 93b2c20dfdccf35ce9fcaa6a580164f39712dec2
   specs:
-    stattleship-ruby (0.1.1)
-      addressable (~> 2.4)
+    stattleship-ruby (0.1.2)
+      addressable (~> 2.3, <= 2.3.8)
       dotenv (~> 2.0, >= 2.0.2)
       link_header (~> 0.0.8)
       multi_json (~> 1.11, >= 1.11.2)
@@ -22,7 +22,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
+    addressable (2.3.8)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
