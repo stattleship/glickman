@@ -49,7 +49,7 @@ module SlackGlickman
           end
         end
 
-        def self.schedule(sport: 'basketball', status: 'upcoming', team_id: nil, on: nil, count: 1)
+        def self.schedule(sport: 'basketball', status: 'upcoming', team_id: nil, on: nil, count: 32)
           query_params = const_get("Stattleship::Params::#{sport.capitalize}GamesParams").new
           query_params.status = status
           query_params.team_id = team_id
