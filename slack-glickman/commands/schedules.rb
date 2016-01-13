@@ -37,7 +37,7 @@ module SlackGlickman
 
           command ":calendar: :#{statmoji}:" do |client, data, _match|
 
-            games = schedule(sport: statmoji, status: 'upcoming', on: 'today')
+            games = schedule(sport: sport, status: 'upcoming', on: 'today')
             games = games.map { |game| "#{game.name} in #{game.city}" }
 
             if games == []
