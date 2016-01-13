@@ -18,7 +18,7 @@ module SlackGlickman
 
             sportmoji['teams'].each do |team|
               teamoji = team['emoji']['default']
-              teamojis << "#{teamoji} #{team['name']} #{team['nickname']}"
+              teamojis << "#{teamoji} #{team['location']} #{team['nickname']}"
             end
           end
 
