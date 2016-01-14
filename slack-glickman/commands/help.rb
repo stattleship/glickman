@@ -12,11 +12,9 @@ module SlackGlickman
       end
 
       command "me" do |client, data, _match|
-        puts data['user']
-        puts data
-        puts data['user']['name']
+        # puts data['user']
 
-        send_message client, data.channel, data['user']['name']
+        send_message client, data.channel, "Hi <@#{data.user}>"
       end
     end
   end

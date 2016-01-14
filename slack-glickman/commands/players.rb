@@ -1,9 +1,6 @@
 module SlackGlickman
   module Commands
     class Players < SlackRubyBot::Commands::Base
-
-      require 'slack-glickman/app'
-
       SlackGlickman::App.instance.teamoji.each do |sport|
         sport['teams'].each do |team|
           command "#{team['emoji']['default']} #{sport['emoji']}" do |client, data, _match|
