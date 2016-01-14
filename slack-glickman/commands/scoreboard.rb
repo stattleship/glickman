@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-    class Scoreboard < SlackRubyBot::Commands::Base
+    class Scoreboard < SlackGlickman::Commands::BaseCommand
       ['basketball', 'football', 'hockey'].each do |sport|
 
         statmoji = if sport == 'hockey'
@@ -31,10 +31,10 @@ module SlackGlickman
 
           if in_progress_scores == []
             scores = (in_progress_scores + ended_scores).join("\n")
-            send_message client, data.channel, ":tv: Nothing on yet\n #{scores}"
+            send_message client, data, ":tv: Nothing on yet\n #{scores}"
           else
             scores = in_progress_scores.join("\n")
-            send_message client, data.channel, ":mega: Here's your latest :#{statmoji}: scores! \n #{scores}"
+            send_message client, data, ":mega: Here's your latest :#{statmoji}: scores! \n #{scores}"
           end
         end
       end

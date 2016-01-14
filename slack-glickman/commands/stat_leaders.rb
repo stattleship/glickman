@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-    class StatLeaders < SlackRubyBot::Commands::Base
+    class StatLeaders < SlackGlickman::Commands::BaseCommand
       command ":doughnut:" do |client, data, _match|
         query_params = Stattleship::Params::HockeyStatLeadersParams.new
         query_params.type = 'hockey_goalie_stat'
@@ -13,7 +13,7 @@ module SlackGlickman
                     map(&:to_sentence).
                     join("\n")
 
-        send_message client, data.channel, ":doughnut: Shutouts! \n #{leaders}"
+        send_message client, data, ":doughnut: Shutouts! \n #{leaders}"
       end
 
       command ':runner:' do |client, data, _match|
@@ -27,7 +27,7 @@ module SlackGlickman
                     map(&:to_sentence).
                     join("\n")
 
-        send_message client, data.channel, ":runner: Most rushing yards! \n #{leaders}"
+        send_message client, data, ":runner: Most rushing yards! \n #{leaders}"
       end
 
       ['basketball', 'football', 'hockey'].each do |sport|
@@ -99,7 +99,7 @@ module SlackGlickman
                       first(5).
                       map(&:to_sentence).join("\n")
 
-          send_message client, data.channel, ":top: #{query_params.stat}! \n #{leaders}"
+          send_message client, data, ":top: #{query_params.stat}! \n #{leaders}"
         end
       end
     end

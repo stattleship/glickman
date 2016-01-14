@@ -16,6 +16,11 @@
     "STATTLESHIP_ACCESS_TOKEN": {
       "description": "Your Stattleship API token.",
       "value": ""
+    },
+    "SEGMENT_API_KEY": {
+      "description": "Optional Segment.com API write key to track analytics.",
+      "value": "",
+      "required": false
     }
   },
   "image": "heroku/ruby",

@@ -1,8 +1,8 @@
 module SlackGlickman
   module Commands
-    class Frivolities < SlackRubyBot::Commands::Base
+    class Frivolities < SlackGlickman::Commands::BaseCommand
       command ":batpig:" do |client, data, _match|
-        send_gif(client, data.channel, 'french bulldog')
+        send_gif(client, data, 'french bulldog')
       end
 
       command ":curry:" do |client, data, _match|
@@ -14,16 +14,16 @@ module SlackGlickman
 
         msg = game_logs.sample.to_sentence
 
-        send_message client, data.channel, ":curry: #{msg}"
+        send_message client, data, ":curry: #{msg}"
       end
 
       command ":eggplant:" do |client, data, _match|
-        send_gif(client, data.channel, 'brett favre')
+        send_gif(client, data, 'brett favre')
       end
 
       command ":game_die:" do |client, data, _match|
         # TODO - totally random
-        send_message client, data.channel, ":game_die:"
+        send_message client, data, ":game_die:"
       end
 
       command ":pizza:" do |client, data, _match|
@@ -35,7 +35,7 @@ module SlackGlickman
 
         msg = game_logs.sample.to_sentence
 
-        send_message client, data.channel, ":pizza: #{msg}"
+        send_message client, data, ":pizza: #{msg}"
       end
     end
   end

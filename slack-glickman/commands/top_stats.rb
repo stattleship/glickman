@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-    class TopStats < SlackRubyBot::Commands::Base
+    class TopStats < SlackGlickman::Commands::BaseCommand
       command ":rain_cloud:" do |client, data, _match|
         query_params = Stattleship::Params::BasketballTopStatsParams.new
         query_params.type = 'basketball_offensive_stat'
@@ -13,7 +13,7 @@ module SlackGlickman
                    map(&:to_sentence).
                    join("\n")
 
-        send_message client, data.channel, ":rain_cloud: Make it rain! \n #{leaders}"
+        send_message client, data, ":rain_cloud: Make it rain! \n #{leaders}"
       end
 
       command ":thunder_cloud_and_rain:" do |client, data, _match|
@@ -27,7 +27,7 @@ module SlackGlickman
                     map(&:to_sentence).
                     join("\n")
 
-        send_message client, data.channel, ":thunder_cloud_and_rain: It's raining threes! \n #{leaders}"
+        send_message client, data, ":thunder_cloud_and_rain: It's raining threes! \n #{leaders}"
       end
     end
   end

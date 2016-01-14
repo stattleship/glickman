@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-    class GameLogs < SlackRubyBot::Commands::Base
+    class GameLogs < SlackGlickman::Commands::BaseCommand
 
       ['basketball', 'football', 'hockey'].each do |sport|
 
@@ -42,7 +42,7 @@ module SlackGlickman
 
           msg = game_logs.sample.to_sentence
 
-          send_message client, data.channel, ":#{statmoji}: #{msg}"
+          send_message client, data, ":#{statmoji}: #{msg}"
         end
       end
 
@@ -56,7 +56,7 @@ module SlackGlickman
 
         msg = game_logs.sample.to_sentence
 
-        send_message client, data.channel, ":tom: #{msg}"
+        send_message client, data, ":tom: #{msg}"
       end
 
       command ':gronk:' do |client, data, _match|
@@ -69,7 +69,7 @@ module SlackGlickman
 
         msg = game_logs.sample.to_sentence
 
-        send_message client, data.channel, ":gronk: #{msg}"
+        send_message client, data, ":gronk: #{msg}"
       end
     end
   end

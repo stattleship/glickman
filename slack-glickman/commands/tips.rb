@@ -1,8 +1,8 @@
  module SlackRubyBot
   module Commands
-    class Tips < SlackRubyBot::Commands::Base
+    class Tips < SlackGlickman::Commands::BaseCommand
       command ":bulb:" do |client, data, _match|
-        send_message client, data.channel, ":bulb: ProTip! coming soon"
+        send_message client, data, ":bulb: ProTip! coming soon"
       end
     end
   end

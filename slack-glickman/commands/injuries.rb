@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-    class Injuries < SlackRubyBot::Commands::Base
+    class Injuries < SlackGlickman::Commands::BaseCommand
       ['basketball', 'football', 'hockey'].each do |sport|
         statmoji = if sport == 'hockey'
                      'ice_hockey_stick_and_puck'
@@ -9,7 +9,7 @@ module SlackGlickman
                     end
         command ":face_with_head_bandage: :#{statmoji}:" do |client, data, _match|
           msg = fetch_injury(sport: sport)
-          send_message client, data.channel, ":face_with_head_bandage: #{msg}"
+          send_message client, data, ":face_with_head_bandage: #{msg}"
         end
       end
 
@@ -17,7 +17,7 @@ module SlackGlickman
         sport['teams'].each do |team|
           command ":face_with_head_bandage: #{team['emoji']['default']} #{sport['emoji']}" do |client, data, _match|
             msg = fetch_injury(sport: sport['sport'], team_id: team['slug'])
-            send_message client, data.channel, ":face_with_head_bandage: #{team['emoji']['default']} #{sport['emoji']} #{msg}"
+            send_message client, data, ":face_with_head_bandage: #{team['emoji']['default']} #{sport['emoji']} #{msg}"
           end
         end
       end

@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-    class Resutls < SlackRubyBot::Commands::Base
+    class Resutls < SlackGlickman::Commands::BaseCommand
       SlackGlickman::App.instance.teamoji.each do |sportmoji|
         sport = sportmoji['sport']
         statmoji = sportmoji['emoji']
@@ -19,12 +19,12 @@ module SlackGlickman
             results = game_logs.map { |game_log| "#{game_log.game.score} #{game_log.team_outcome.gsub('_', ' ')} vs #{game_log.opponent.nickname}" }
 
             if game_log_mojis == []
-              send_message client, data.channel, ":no_mouth: No #{teamoji} #{statmoji} results."
+              send_message client, data, ":no_mouth: No #{teamoji} #{statmoji} results."
             else
               game_log_mojis = game_log_mojis.join(' ')
               results = results.join("\n")
 
-              send_message client, data.channel, "#{teamoji} #{statmoji} :point_right: #{game_log_mojis}\n#{results}"
+              send_message client, data, "#{teamoji} #{statmoji} :point_right: #{game_log_mojis}\n#{results}"
             end
           end
         end

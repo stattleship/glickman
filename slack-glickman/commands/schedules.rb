@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-    class Schedules < SlackRubyBot::Commands::Base
+    class Schedules < SlackGlickman::Commands::BaseCommand
 
       SlackGlickman::App.instance.teamoji.each do |sportmoji|
         sport = sportmoji['sport']
@@ -18,10 +18,10 @@ module SlackGlickman
             games = games.map { |game| "#{game.name} in #{game.city}" }
 
             if games == []
-              send_message client, data.channel, ":calendar: No #{teamoji} #{statmoji} games today."
+              send_message client, data, ":calendar: No #{teamoji} #{statmoji} games today."
             else
               games = games.join("\n")
-              send_message client, data.channel, ":calendar: Upcoming #{teamoji} #{statmoji} games! \n #{games}"
+              send_message client, data, ":calendar: Upcoming #{teamoji} #{statmoji} games! \n #{games}"
             end
           end
         end
@@ -40,10 +40,10 @@ module SlackGlickman
           games = games.map { |game| "#{game.name} in #{game.city}" }
 
           if games == []
-            send_message client, data.channel, ":calendar: No :#{statmoji}: games today."
+            send_message client, data, ":calendar: No :#{statmoji}: games today."
           else
             games = games.join("\n")
-            send_message client, data.channel, ":calendar: Today's :#{statmoji}: games! \n #{games}"
+            send_message client, data, ":calendar: Today's :#{statmoji}: games! \n #{games}"
           end
         end
       end

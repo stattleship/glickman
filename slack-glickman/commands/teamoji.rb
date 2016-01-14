@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-    class Teamoji < SlackRubyBot::Commands::Base
+    class Teamoji < SlackGlickman::Commands::BaseCommand
 
       ['basketball', 'football', 'hockey'].each do |sport|
         statmoji = if sport == 'hockey'
@@ -24,7 +24,7 @@ module SlackGlickman
 
           msg = teamojis.join("\n")
 
-          send_message client, data.channel, "All #{statmoji} teamojis!\n #{msg}"
+          send_message client, data, "All #{statmoji} teamojis!\n #{msg}"
         end
       end
     end
