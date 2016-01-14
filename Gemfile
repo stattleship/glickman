@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 ruby '2.2.3'
 
+gem 'analytics-ruby', require: "segment"
 gem 'slack-ruby-bot'
 gem 'puma'
 gem 'sinatra'

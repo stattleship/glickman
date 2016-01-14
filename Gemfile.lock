@@ -23,6 +23,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
+    analytics-ruby (2.0.13)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
@@ -128,6 +129,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  analytics-ruby
   foreman
   puma
   rack-test
