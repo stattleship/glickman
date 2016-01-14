@@ -5,7 +5,10 @@ module SlackGlickman
         query_params = Stattleship::Params::HockeyFeatsParams.new
         query_params.feat = 'hat_trick_goals'
 
-        feats = Stattleship::HockeyFeats.fetch(params: query_params).map(&:to_sentence).join("\n")
+        feats = Stattleship::HockeyFeats.fetch(params: query_params).
+                  sample(5).
+                  map(&:to_sentence).
+                  join("\n")
 
         send_message client, data.channel, ":tophat: Hat Tricks! \n #{feats}"
       end
@@ -26,9 +29,13 @@ module SlackGlickman
             query_params.interval_type = 'wildcard'
           end
 
-          feats = const_get("Stattleship::#{sport.capitalize}Feats").fetch(params: query_params).map(&:to_sentence).join("\n")
+          feats = const_get("Stattleship::#{sport.capitalize}Feats").
+                    fetch(params: query_params).
+                    sample(5).
+                    map(&:to_sentence).
+                    join("\n")
 
-          send_message client, data.channel, ":fire: What's hot in :#{statmoji}: since #{query_params.since }! \n #{feats}"
+          send_message client, data.channel, ":fire: Some hotness in :#{statmoji}: since #{query_params.since }! \n #{feats}"
         end
       end
     end

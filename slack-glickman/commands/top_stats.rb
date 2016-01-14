@@ -7,7 +7,11 @@ module SlackGlickman
         query_params.stat = 'field_goals_made'
         query_params.place = 3
 
-        leaders = Stattleship::BasketballTopStats.fetch(params: query_params).map(&:to_sentence).join("\n")
+        leaders = Stattleship::BasketballTopStats.
+                   fetch(params: query_params).
+                   first(5).
+                   map(&:to_sentence).
+                   join("\n")
 
         send_message client, data.channel, ":rain_cloud: Make it rain! \n #{leaders}"
       end
@@ -18,7 +22,10 @@ module SlackGlickman
         query_params.stat = 'three_pointers_made'
         query_params.place = 3
 
-        leaders = Stattleship::BasketballTopStats.fetch(params: query_params).map(&:to_sentence).join("\n")
+        leaders = Stattleship::BasketballTopStats.fetch(params: query_params).
+                    first(5).
+                    map(&:to_sentence).
+                    join("\n")
 
         send_message client, data.channel, ":thunder_cloud_and_rain: It's raining threes! \n #{leaders}"
       end

@@ -10,6 +10,14 @@ module SlackGlickman
       command "about" do |client, data, _match|
         send_message client, data.channel, INFO_MESSAGE
       end
+
+      command "me" do |client, data, _match|
+        puts data['user']
+        puts data
+        puts data['user']['name']
+
+        send_message client, data.channel, data['user']['name']
+      end
     end
   end
 end

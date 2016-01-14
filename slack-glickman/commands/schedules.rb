@@ -13,7 +13,7 @@ module SlackGlickman
             games = schedule(sport: sport,
                              status: 'upcoming',
                              team_id: team['slug'],
-                             count: 10)
+                             count: 5)
 
             games = games.map { |game| "#{game.name} in #{game.city}" }
 
@@ -48,7 +48,7 @@ module SlackGlickman
         end
       end
 
-      def self.schedule(sport: 'basketball', status: 'upcoming', team_id: nil, on: nil, count: 32)
+      def self.schedule(sport: 'basketball', status: 'upcoming', team_id: nil, on: nil, count: 5)
         query_params = const_get("Stattleship::Params::#{sport.capitalize}GamesParams").new
         query_params.status = status
         query_params.team_id = team_id

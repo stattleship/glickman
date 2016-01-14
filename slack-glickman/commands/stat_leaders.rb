@@ -7,7 +7,11 @@ module SlackGlickman
         query_params.stat = 'shutouts'
         query_params.place = 3
 
-        leaders = Stattleship::HockeyStatLeaders.fetch(params: query_params).map(&:to_sentence).join("\n")
+        leaders = Stattleship::HockeyStatLeaders.
+                    fetch(params: query_params).
+                    first(5).
+                    map(&:to_sentence).
+                    join("\n")
 
         send_message client, data.channel, ":doughnut: Shutouts! \n #{leaders}"
       end
@@ -18,7 +22,10 @@ module SlackGlickman
         query_params.stat = 'rushes_yards'
         query_params.place = 3
 
-        leaders = Stattleship::FootballStatLeaders.fetch(params: query_params).map(&:to_sentence).join("\n")
+        leaders = Stattleship::FootballStatLeaders.fetch(params: query_params).
+                    first(5).
+                    map(&:to_sentence).
+                    join("\n")
 
         send_message client, data.channel, ":runner: Most rushing yards! \n #{leaders}"
       end
@@ -88,7 +95,9 @@ module SlackGlickman
           query_params.place = 3
 
           leaders = const_get("Stattleship::#{sport.capitalize}StatLeaders").fetch(params: query_params)
-          leaders = leaders.map(&:to_sentence).join("\n")
+          leaders = leaders.
+                      first(5).
+                      map(&:to_sentence).join("\n")
 
           send_message client, data.channel, ":top: #{query_params.stat}! \n #{leaders}"
         end
