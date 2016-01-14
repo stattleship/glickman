@@ -6,7 +6,8 @@ Its namesake is [Marty Glickman](https://en.wikipedia.org/wiki/Marty_Glickman), 
 
 This bot is make possible by [Slack-Ruby-Bot](https://github.com/dblock/slack-ruby-bot), a generic Slack bot framework written in Ruby on top of [slack-ruby-client](https://github.com/dblock/slack-ruby-client).
 
-It also relies on the [stattleship-ruby](https://github.com/stattleship/stattleship-ruby) gem to fetch sports stats and info.
+It also relies on the [stattleship-ruby](https://github.com/stattleship/stattleship-ruby) gem to fetch sports stats and info as well as our list of [teamojis](https://github.com/stattleship/teamoji) in many of its commands.
+
 
 # Installation
 
