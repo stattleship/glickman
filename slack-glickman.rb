@@ -4,6 +4,7 @@ require 'slack-ruby-bot'
 require 'slack-glickman/data/cache'
 require 'slack-glickman/app'
 
+require 'slack-glickman/commands/base_command'
 require 'slack-glickman/commands/injuries'
 require 'slack-glickman/commands/feats'
 require 'slack-glickman/commands/frivolities'

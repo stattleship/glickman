@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-  class Feats < SlackRubyBot::Commands::Base
+    class Feats < SlackGlickman::Commands::BaseCommand
       command ":tophat:" do |client, data, _match|
         query_params = Stattleship::Params::HockeyFeatsParams.new
         query_params.feat = 'hat_trick_goals'
@@ -10,7 +10,7 @@ module SlackGlickman
                   map(&:to_sentence).
                   join("\n")
 
-        send_message client, data.channel, ":tophat: Hat Tricks! \n #{feats}"
+        send_message client, data, ":tophat: Hat Tricks! \n #{feats}"
       end
 
       ['basketball', 'football', 'hockey'].each do |sport|
@@ -35,7 +35,7 @@ module SlackGlickman
                     map(&:to_sentence).
                     join("\n")
 
-          send_message client, data.channel, ":fire: Some hotness in :#{statmoji}: since #{query_params.since }! \n #{feats}"
+          send_message client, data, ":fire: Some hotness in :#{statmoji}: since #{query_params.since }! \n #{feats}"
         end
       end
     end
