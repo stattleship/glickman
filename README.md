@@ -94,6 +94,12 @@ Top three pointers basketball performances
 
 :thunder_cloud_and_rain:
 
+## Results
+
+:no_mouth: :four_leaf_clover: :basketball:
+
+:no_mouth: :bear: :ice_hockey_stick_and_puck:
+
 ## Schedules
 
 ![Schedules](/screenshots/schedules.gif?raw=true "Schedules")
@@ -104,6 +110,14 @@ Top three pointers basketball performances
 
 :calendar: :ice_hockey_stick_and_puck:
 
+### Schedule For Team
+
+:calendar: :four_leaf_clover: basketball:
+
+:calendar: :cow: :football:
+
+:calendar: :bear: :ice_hockey_stick_and_puck:
+
 ## Scores
 
 In-progress and recently ended game scores per sport
@@ -113,7 +127,6 @@ In-progress and recently ended game scores per sport
 :mega: :football:
 
 :mega: :ice_hockey_stick_and_puck:
-
 
 ## Injuries
 
@@ -135,29 +148,19 @@ Use teamoji(tm) to get a list of player deets.
 
 Celtics
 
-:four_leaf_clover: :basketball:
-
-76ers
-
-:statue_of_liberty: :basketball:
-
-All bears!
-
-![Bears](/screenshots/players_bears.gif?raw=true "Bears")
+:shirt: :four_leaf_clover: :basketball:
 
 Chicago Bears
 
-:bear: :football:
+:shirt: :bear: :football:
 
 Memphis Grizzlies
 
-:bear: :basketball:
+:shirt: :bear: :basketball:
 
 Boston Bruins
 
-:bear: :ice_hockey_stick_and_puck:
-
-More teams coming soon.
+:shirt: :bear: :ice_hockey_stick_and_puck:
 
 ## Frivolities
 
@@ -166,6 +169,18 @@ More teams coming soon.
 :pizza:
 
 Easter eggs!
+
+## Teamojis
+
+Use [teamojis](https://github.com/stattleship/teamoji) with the player, schedule commands.
+
+These commands return the [teamojis](https://github.com/stattleship/teamoji) for their league.
+
+teamoji :basketball:
+
+teamoji :football:
+
+teamoji :ice_hockey_stick_and_puck:
 
 ## GIFs
 
