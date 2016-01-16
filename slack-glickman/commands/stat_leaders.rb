@@ -1,6 +1,34 @@
 module SlackGlickman
   module Commands
     class StatLeaders < SlackGlickman::Commands::BaseCommand
+      command ':basketball: :basketball: :basketball:' do |client, data, _match|
+        query_params = Stattleship::Params::BasketballStatLeadersParams.new
+        query_params.type = 'basketball_doubles_stat'
+        query_params.stat = 'triple_double'
+        query_params.place = 3
+
+        leaders = Stattleship::BasketballStatLeaders.fetch(params: query_params).
+                    first(5).
+                    map(&:to_sentence).
+                    join("\n")
+
+        send_message client, data, ":basketball: :basketball: :basketball: Most triple doubles! \n #{leaders}"
+      end
+
+      command ':basketball: :basketball:' do |client, data, _match|
+        query_params = Stattleship::Params::BasketballStatLeadersParams.new
+        query_params.type = 'basketball_doubles_stat'
+        query_params.stat = 'double_double'
+        query_params.place = 3
+
+        leaders = Stattleship::BasketballStatLeaders.fetch(params: query_params).
+                    first(5).
+                    map(&:to_sentence).
+                    join("\n")
+
+        send_message client, data, ":basketball: :basketball: Most double doubles! \n #{leaders}"
+      end
+
       command ":doughnut:" do |client, data, _match|
         query_params = Stattleship::Params::HockeyStatLeadersParams.new
         query_params.type = 'hockey_goalie_stat'
