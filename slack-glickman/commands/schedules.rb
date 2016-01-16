@@ -55,7 +55,7 @@ module SlackGlickman
         query_params.on = on
 
         if sport == 'football' then
-          query_params.interval_type = 'wildcard'
+          query_params.interval_type = 'divisionalplayoffs'
         end
 
         const_get("Stattleship::#{sport.capitalize}Games").
