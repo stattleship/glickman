@@ -58,10 +58,9 @@ Or for a team,
 
 :lower_left_paintbrush: :bear: :ice_hockey_stick_and_puck:
 
-
 ## Player Game Log
 
-Random player game log per sport
+### Last
 
 ![Basketball Game Log](/screenshots/basketball_player_game_log.gif?raw=true "Basketball Game Log")
 
@@ -69,9 +68,7 @@ Random player game log per sport
 
 :football: first_name last_name
 
-
 ![Hockey Game Log](/screenshots/hockey_player_game_log.gif?raw=true "Hockey Game Log")
-
 
 :ice_hockey_stick_and_puck: first_name last_name
 
@@ -82,6 +79,26 @@ For example:
 :football: tom brady
 
 :ice_hockey_stick_and_puck: tyler seguin
+
+### Random
+
+![Basketball Game Log](/screenshots/basketball_player_game_log.gif?raw=true "Basketball Game Log")
+
+:basketball: :game_die: first_name last_name
+
+:football: :game_die: first_name last_name
+
+![Hockey Game Log](/screenshots/hockey_player_game_log.gif?raw=true "Hockey Game Log")
+
+:ice_hockey_stick_and_puck: :game_die: first_name last_name
+
+For example:
+
+:basketball: :game_die: Lebron James
+
+:football: :game_die: tom brady
+
+:ice_hockey_stick_and_puck: :game_die: tyler seguin
 
 ## Feats
 

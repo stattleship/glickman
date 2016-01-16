@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/stattleship/stattleship-ruby.git
-  revision: 9257e4c5be6abfd03540c30d35c4bcb3e5a5d28d
+  revision: 80f0f55476eb37943a1a575b23d57c2b95e0eb4c
   specs:
     stattleship-ruby (0.1.2)
       addressable (~> 2.3, <= 2.3.8)
