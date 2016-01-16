@@ -38,6 +38,26 @@ Glickman knows a good deal about sports.
 
 ![What's hot in basketball](/screenshots/fire_basketball.gif?raw=true "What's hot in basketball")
 
+## Colors
+
+List team colors.
+
+![Team Colors](/screenshots/colors.png?raw=true "Team Colors")
+
+:lower_left_paintbrush: :basketball:
+
+:lower_left_paintbrush: :football:
+
+:lower_left_paintbrush: :ice_hockey_stick_and_puck:
+
+Or for a team,
+
+:lower_left_paintbrush: :cow: :basketball:
+
+:lower_left_paintbrush: :cow: :football:
+
+:lower_left_paintbrush: :bear: :ice_hockey_stick_and_puck:
+
 
 ## Player Game Log
 
