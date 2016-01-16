@@ -1,7 +1,7 @@
 module SlackGlickman
   module Commands
     class StatLeaders < SlackGlickman::Commands::BaseCommand
-      command ':basketball: :basketball: :basketball:' do |client, data, _match|
+      command ':slot_machine:' do |client, data, _match|
         query_params = Stattleship::Params::BasketballStatLeadersParams.new
         query_params.type = 'basketball_doubles_stat'
         query_params.stat = 'triple_double'
@@ -12,10 +12,10 @@ module SlackGlickman
                     map(&:to_sentence).
                     join("\n")
 
-        send_message client, data, ":basketball: :basketball: :basketball: Most triple doubles! \n #{leaders}"
+        send_message client, data, ":slot_machine: :basketball: :basketball: :basketball: Most triple doubles! \n #{leaders}"
       end
 
-      command ':basketball: :basketball:' do |client, data, _match|
+      command ':hamburger:' do |client, data, _match|
         query_params = Stattleship::Params::BasketballStatLeadersParams.new
         query_params.type = 'basketball_doubles_stat'
         query_params.stat = 'double_double'
@@ -26,7 +26,7 @@ module SlackGlickman
                     map(&:to_sentence).
                     join("\n")
 
-        send_message client, data, ":basketball: :basketball: Most double doubles! \n #{leaders}"
+        send_message client, data, ":hamburger: :basketball: :basketball: Most double doubles! \n #{leaders}"
       end
 
       command ":doughnut:" do |client, data, _match|

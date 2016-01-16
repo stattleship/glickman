@@ -202,9 +202,9 @@ Boston Bruins
 
 ## Basketball Doubles
 
-:basketball: :basketball: :basketball:
+:slot_machine: Triple Doubles
 
-:basketball: :basketball:
+:hamburger: Double double
 
 ## Frivolities
 
