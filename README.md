@@ -202,6 +202,8 @@ Boston Bruins
 
 ## Basketball Doubles
 
+![Doubles](/screenshots/doubles.gif?raw=true "Doubles")
+
 :slot_machine: Triple Doubles
 
 :hamburger: Double double
