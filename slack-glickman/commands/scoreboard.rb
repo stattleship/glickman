@@ -10,7 +10,6 @@ module SlackGlickman
                     end
 
         command ":mega: :#{statmoji}:" do |client, data, _match|
-
           query_params = const_get("Stattleship::Params::#{sport.capitalize}GamesParams").new
           query_params.status = 'in_progress'
 

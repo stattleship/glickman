@@ -2,6 +2,7 @@ require 'stattleship'
 require 'slack-ruby-bot'
 
 require 'slack-glickman/data/cache'
+require 'slack-glickman/stattleship/snackable'
 require 'slack-glickman/app'
 
 require 'slack-glickman/commands/base_command'

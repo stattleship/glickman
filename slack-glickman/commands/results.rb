@@ -1,6 +1,6 @@
 module SlackGlickman
   module Commands
-    class Resutls < SlackGlickman::Commands::BaseCommand
+    class Results < SlackGlickman::Commands::BaseCommand
       SlackGlickman::App.instance.teamoji.each do |sportmoji|
         sport = sportmoji['sport']
         statmoji = sportmoji['emoji']
@@ -31,7 +31,7 @@ module SlackGlickman
       end
 
       def self.team_game_logs(sport: 'basketball', status: 'ended', team_id: nil, on: nil, count: 5)
-        query_params = const_get("Stattleship::Params::#{sport.capitalize}GamesParams").new
+        query_params = const_get("Stattleship::Params::#{sport.capitalize}TeamGameLogsParams").new
         query_params.status = status
         query_params.team_id = team_id
         query_params.on = on
