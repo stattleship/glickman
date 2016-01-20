@@ -14,9 +14,15 @@ module SlackGlickman
                           })
         end
 
-        snackable.post
+        if ENV['OGLETHORPE_SLACK_API_TOKEN']
+          response = snackable.post
+          link = (response['url'] || '').gsub('url', '')
+          message = [text, link].join(' ').strip
+        else
+          message = text
+        end
 
-        super(client, data.channel, text, options)
+        super(client, data.channel, message, options.merge(unfurl_links: false, unfurl_media: false))
       end
 
       def self.send_gif(client, data, options = {})
