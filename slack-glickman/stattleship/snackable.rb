@@ -3,7 +3,7 @@ module Stattleship
     include HTTParty
 
     attr_reader :data, :text
-    base_uri ENV.fetch('OGLETHORPE_URI', 'http://oglethorpe.stattleship.com')
+    base_uri ENV.fetch('OGLETHORPE_URI', 'https://oglethorpe.stattleship.com')
 
     def initialize(data: {}, text: '')
       @data = data.to_h
