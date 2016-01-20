@@ -31,8 +31,10 @@ module Stattleship
     end
 
     def signature
-      Stattleship::Util::RequestValidator.new(auth_token: auth_token).
-        signature(payload)
+      if ENV['OGLETHORPE_SLACK_API_TOKEN']
+        Stattleship::Util::RequestValidator.new(auth_token: auth_token).
+          signature(payload)
+      end
     end
 
     def post
