@@ -1,0 +1,19 @@
+{
+  "playermoji": [
+    {
+      "emoji": ":curry:",
+      "slug": "nba-stephen-curry",
+      "sport": "basketball"
+    },
+    {
+      "emoji": ":crown:",
+      "slug": "nba-lebron-james",
+      "sport": "basketball"
+    },
+    {
+      "emoji": ":rose:",
+      "slug": "nba-derrick-rose",
+      "sport": "basketball"
+    }
+  ]
+}
