@@ -112,6 +112,8 @@ For example:
 
 :fire: :ice_hockey_stick_and_puck:
 
+:rotating_light: Recent goals scored (5 random sampling)
+
 ## Stat Leaders
 
 Goalie shutout leaders
@@ -215,6 +217,16 @@ Boston Bruins
 :pizza:
 
 Easter eggs!
+
+## Playermojis
+
+Each return a random player game log
+
+:crown: Lebron James
+
+:curry: Stephen Curry
+
+:rose: Derrick Rose
 
 ## Teamojis
 

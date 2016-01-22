@@ -5,18 +5,6 @@ module SlackGlickman
         send_gif(client, data, 'french bulldog')
       end
 
-      command ":curry:" do |client, data, _match|
-        query_params = Stattleship::Params::BasketballGameLogsParams.new
-
-        query_params.player_id = 'nba-stephen-curry'
-
-        game_logs = Stattleship::BasketballGameLogs.fetch(params: query_params)
-
-        msg = game_logs.sample.to_sentence
-
-        send_message client, data, ":curry: #{msg}"
-      end
-
       command ":eggplant:" do |client, data, _match|
         send_gif(client, data, 'brett favre')
       end
@@ -24,6 +12,10 @@ module SlackGlickman
       command ":game_die:" do |client, data, _match|
         # TODO - totally random
         send_message client, data, ":game_die:"
+      end
+
+      command ":unicorn_face:" do |client, data, _match|
+        send_message client, data, ":rainbow: :rainbow: :rainbow: :rainbow: :rainbow:"
       end
 
       command ":pizza:" do |client, data, _match|
@@ -36,6 +28,10 @@ module SlackGlickman
         msg = game_logs.sample.to_sentence
 
         send_message client, data, ":pizza: #{msg}"
+      end
+
+      command ":table_tennis_paddle_and_ball:" do |client, data, _match|
+        send_gif(client, data, 'pong')
       end
     end
   end

@@ -1,6 +1,10 @@
 module SlackGlickman
   module Data
     class Cache
+      def playermoji
+        @playermoji ||= JSON.parse(json_for_filename('playermoji'))['playermoji'].freeze
+      end
+
       def teamoji
         @teamoji ||= JSON.parse(json_for_filename('teamoji'))['teamoji'].freeze
       end

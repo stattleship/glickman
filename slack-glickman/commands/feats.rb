@@ -10,7 +10,7 @@ module SlackGlickman
                   map(&:to_sentence).
                   join("\n")
 
-        send_message client, data, ":tophat: Hat Tricks! \n #{feats}"
+        send_message client, data, ":tophat: Hat Tricks! \n#{feats}"
       end
 
       ['basketball', 'football', 'hockey'].each do |sport|
@@ -35,8 +35,22 @@ module SlackGlickman
                     map(&:to_sentence).
                     join("\n")
 
-          send_message client, data, ":fire: Some hotness in :#{statmoji}: since #{query_params.since }! \n #{feats}"
+          send_message client, data, ":fire: Some hotness in :#{statmoji}: since #{query_params.since }! \n#{feats}"
         end
+      end
+
+      command ":rotating_light:" do |client, data, _match|
+        query_params = Stattleship::Params::HockeyFeatsParams.new
+        query_params.feat = 'goals'
+        query_params.level_up = 0
+        query_params.since = 'yesterday'
+
+        feats = Stattleship::HockeyFeats.fetch(params: query_params).
+                  sample(5).
+                  map(&:to_sentence).
+                  join("\n")
+
+        send_message client, data, ":rotating_light: Light the lamp!\n#{feats}"
       end
     end
   end
