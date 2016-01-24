@@ -35,7 +35,7 @@ module SlackGlickman
           query_params.player_id = player_slug
 
           if statmoji == 'football' then
-            query_params.interval_type = 'divisionalplayoffs'
+            query_params.interval_type = 'conferencechampionships'
           end
 
           game_logs = const_get("Stattleship::#{sport.capitalize}GameLogs").fetch(params: query_params)
@@ -79,7 +79,7 @@ module SlackGlickman
           query_params.player_id = player_slug
 
           if statmoji == 'football' then
-            query_params.interval_type = 'divisionalplayoffs'
+            query_params.interval_type = 'conferencechampionships'
           end
 
           game_logs = const_get("Stattleship::#{sport.capitalize}GameLogs").fetch(params: query_params)
