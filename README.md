@@ -8,6 +8,11 @@ This bot is make possible by [Slack-Ruby-Bot](https://github.com/dblock/slack-ru
 
 It also relies on the [stattleship-ruby](https://github.com/stattleship/stattleship-ruby) gem to fetch sports stats and info as well as our list of [teamojis](https://github.com/stattleship/teamoji) in many of its commands.
 
+# Try It Out!
+
+Join our public [Fanboat](http://fanboat.stattleship.com/) Slack channels and try out "cosell", its Glickman bot integration.
+
+You can try out any of the commands below, just use "cosell:" instead of "glickman:" to talk to the bot.
 
 # Installation
 
