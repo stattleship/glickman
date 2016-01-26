@@ -7,8 +7,7 @@ gem 'httparty'
 gem 'slack-ruby-bot'
 gem 'puma'
 gem 'sinatra'
-# gem 'stattleship-ruby', git: 'https://github.com/stattleship/stattleship-ruby.git'
-gem 'stattleship-ruby', '0.1.3'
+gem 'stattleship-ruby', '0.1.3', git: 'https://github.com/stattleship/stattleship-ruby.git'
 
 group :development, :test do
   gem 'rake'
