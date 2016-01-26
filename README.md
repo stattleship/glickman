@@ -168,6 +168,22 @@ In-progress and recently ended game scores per sport
 
 :mega: :ice_hockey_stick_and_puck:
 
+## Scoring Plays
+
+Recent random sampling of scoring plays for the NFL :football: and NHL :snowflake:. NBA :basketball: does not have scoring play data.
+
+:tada: teamoji sport
+
+For example:
+
+:tada: :maple_leaf: :ice_hockey_stick_and_puck:
+
+![NHL Scoring Plays](/screenshots/tada_nhl_maple_leaf_goals_scored.png?raw=true "NHL Scoring Plays")
+
+:tada: :cat: :football:
+
+![NFL Scoring Plays](/screenshots/tada_nfl_carolina_panthers_scoring_plays.png?raw=true "NFL Scoring Plays")
+
 ## Injuries
 
 Random injury report per sport
@@ -179,6 +195,14 @@ Random injury report per sport
 :face_with_head_bandage: :football:
 
 :face_with_head_bandage: :ice_hockey_stick_and_puck:
+
+## Penalties
+
+Recent random sampling of penalties for NHL :snowflake:. NBA :basketball: and the NFL :football: and do not have penalty data.
+
+:package: :statue_of_liberty: :ice_hockey_stick_and_puck:
+
+![NHL Penalties](/screenshots/package_nhl_ny_rangers_penalties.png?raw=true "NHL Penalties")
 
 ## Players
 
