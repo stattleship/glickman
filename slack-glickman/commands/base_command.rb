@@ -15,9 +15,13 @@ module SlackGlickman
         end
 
         if ENV['OGLETHORPE_SLACK_API_TOKEN']
-          response = snackable.post
-          link = (response['url'] || '').gsub('url', '')
-          message = [text, link].join(' ').strip
+          if text.nil? || text.length == 0
+            message = text
+          else
+            response = snackable.post
+            link = (response['url'] || '').gsub('url', '')
+            message = [text, link].join(' ').strip
+          end
         else
           message = text
         end
@@ -38,6 +42,11 @@ module SlackGlickman
         end
 
         super(client, data.channel, options)
+      end
+
+      def self.send_error(client, data, text, options = {})
+        message = ":robot_face: uh oh\n#{text}"
+        client.say(options.merge(channel: data.channel, text: message))
       end
     end
   end

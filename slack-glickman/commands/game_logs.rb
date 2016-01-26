@@ -40,9 +40,13 @@ module SlackGlickman
 
           game_logs = const_get("Stattleship::#{sport.capitalize}GameLogs").fetch(params: query_params)
 
-          msg = game_logs.sample.to_sentence
-
-          send_message client, data, ":#{statmoji}: :game_die: #{msg}"
+          if game_logs.size > 0
+            msg = game_logs.sample.to_sentence
+            send_message client, data, ":#{statmoji}: :game_die: #{msg}"
+          else
+            msg = 'Nothing to see here'
+            send_error client, data, ":#{statmoji}: :game_die: #{msg}"
+          end
         end
       end
 
@@ -84,9 +88,13 @@ module SlackGlickman
 
           game_logs = const_get("Stattleship::#{sport.capitalize}GameLogs").fetch(params: query_params)
 
-          msg = game_logs.last.to_sentence
-
-          send_message client, data, ":#{statmoji}: #{msg}"
+          if game_logs.size > 0
+            msg = game_logs.last.to_sentence
+            send_message client, data, ":#{statmoji}: #{msg}"
+          else
+            msg = 'Nothing to see here'
+            send_error client, data, ":#{statmoji}: #{msg}"
+          end
         end
       end
 
@@ -98,9 +106,13 @@ module SlackGlickman
 
         game_logs = Stattleship::FootballGameLogs.fetch(params: query_params)
 
-        msg = game_logs.sample.to_sentence
-
-        send_message client, data, ":tom: #{msg}"
+        if game_logs.size > 0
+          msg = game_logs.sample.to_sentence
+          send_message client, data, ":tom: #{msg}"
+        else
+          msg = 'Nothing to see here'
+          send_error client, data, ":tom: #{msg}"
+        end
       end
 
       command ':gronk:' do |client, data, _match|
@@ -111,9 +123,13 @@ module SlackGlickman
 
         game_logs = Stattleship::FootballGameLogs.fetch(params: query_params)
 
-        msg = game_logs.sample.to_sentence
-
-        send_message client, data, ":gronk: #{msg}"
+        if game_logs.size > 0
+          msg = game_logs.sample.to_sentence
+          send_message client, data, ":gronk: #{msg}"
+        else
+          msg = 'Nothing to see here'
+          send_error client, data, ":gronk: #{msg}"
+        end
       end
     end
   end
