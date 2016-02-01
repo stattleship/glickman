@@ -9,6 +9,10 @@ module SlackGlickman
       @cache ||= Data::Cache.new
     end
 
+    def help
+      cache.help
+    end
+
     def playermoji
       cache.playermoji
     end

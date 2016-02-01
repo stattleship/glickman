@@ -1,18 +1,27 @@
 module SlackGlickman
   module Commands
     class Help < SlackGlickman::Commands::BaseCommand
-      INFO_MESSAGE = "I'm Glickman, your statmoji(tm) sports slackbot powered by the Stattleship API. Read more at https://github.com/stattleship/glickman"
-
       command "help" do |client, data, _match|
-        send_message client, data.channel, INFO_MESSAGE
+        options = {}
+        text = [SlackGlickman::App.instance.help['info'], '']
+        text <<  SlackGlickman::App.instance.help['intro']
+        text << ''
+
+        SlackGlickman::App.instance.help['commands'].each do |key, values|
+          text << "#{values['expression']} - #{values['description']}"
+        end
+
+        client.say(options.merge(channel: data.channel, text: text.join("\n")))
       end
 
       command "about" do |client, data, _match|
-        send_message client, data.channel, INFO_MESSAGE
+        options = {}
+        client.say(options.merge(channel: data.channel, text: SlackGlickman::App.instance.help['info']))
       end
 
       command "me" do |client, data, _match|
-        send_message client, data, "Hi <@#{data.user}>"
+        options = {}
+        client.say(options.merge(channel: data.channel, text: "Hi <@#{data.user}>"))
       end
     end
   end

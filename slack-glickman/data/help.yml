@@ -1,0 +1,90 @@
+info: "I'm Glickman, your statmoji(tm) sports slackbot powered by the Stattleship API. Read more at https://github.com/stattleship/glickman"
+intro: 'You can ask me about sports. Just be sure to use the statmoji. This is what I can do:'
+commands:
+  colors:
+    expression: ':lower_left_paintbrush: :basketball:'
+    description: Colors for each sportmoji team
+  injuries:
+    expression: ':face_with_head_bandage: :basketball:'
+    description: Random injury report for a sportmoji
+  team_injuries:
+    expression: ':face_with_head_bandage: :bear: :ice_hockey_stick_and_puck:'
+    description: Random injury report for a teamoji
+  hat_trick_goals:
+    expression: ':tophat:'
+    description: Hockey hat tricks
+  rotating_light:
+    expression: ':rotating_light:'
+    description: Recently scored hockey goals
+  feats:
+    expression: ':fire: :basketball:'
+    description: Recent hotness for a sport
+  game_logs:
+    expression: ':basketball: <first name> <last name>'
+    description: Most recent player game log
+  game_logs_random:
+    expression: ':basketball: :game_die: <first name> <last name>'
+    description: Random player gamelog
+  penalties:
+    expression: ':package: :wolf: :ice_hockey_stick_and_puck:'
+    description: Hockey penalties for a teamoji
+  players:
+    expression: ':shirt: :skull_and_crossbones: :football:'
+    description: Player info
+  results:
+    expression: ':no_mouth: :bridge_at_night: :basketball:'
+    description: Team results as emoji
+  schedules:
+    expression: ':calendar: :ice_hockey_stick_and_puck:'
+    description: Schedules for a sport
+  team_schedules:
+    expression: ':calendar: :four_leaf_clover: :basketball:'
+    description: Schedules for a teamoji
+  basketballl_scoreboard:
+    expression: ':mega: :basketball:'
+    description: Basketball score updates
+  football_scoreboard:
+    expression: ':mega: :football:'
+    description: Football score updates
+  hockey_scoreboard:
+    expression: ':mega: :ice_hockey_stick_and_puck:'
+    description: Hockey score updates
+  scoring_plays:
+    expression: ':tada: :crown: :ice_hockey_stick_and_puck:'
+    description: Recent hockey goals scored for teamoji
+  stat_leaders:
+    expression: ':top: :basketball: FT'
+    description: 'Top three leaders for 3P, FG, A, P, FT'
+  stat_leaders:
+    expression: ':top: :football: TD'
+    description: 'Top three leaders for TD'
+  stat_leaders:
+    expression: ':top: :ice_hockey_stick_and_puck: FT'
+    description: 'Top three leaders for G, A, S, P, PPG'
+  slot_machine:
+    expression: ':slot_machine:'
+    description: Basketball triple-triple leaders
+  hamburger:
+    expression: ':hamburger:'
+    description: Basketball double-double leaders
+  doughnut:
+    expression: ':doughnut:'
+    description: Hockey shutout leaders
+  runner:
+    expression: ':runner:'
+    description: Football rushng leaders
+  playermoji:
+    expression: ':curry:, :crown:, or :rose:'
+    description: 'Random Stephen Curry, Lebron James or Derrick Rose game log'
+  teamoji:
+    expression: 'teamoji :basketball:'
+    description: List team teamojis per sport
+  rain_cloud:
+    expression: ':rain_cloud:'
+    description: 'Best :basketball: shooting performances'
+  thunder_cloud_and_rain:
+    expression: ':thunder_cloud_and_rain:'
+    description: 'Best :basketball: three point shooting performances'
+  videos:
+    expression: ':movie_camera: :rocket: :basketball:'
+    description: Random GIF for a team and sport using teamojis

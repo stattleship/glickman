@@ -22,9 +22,12 @@ module SlackGlickman
         end
       end
 
-      def self.fetch_injury(sport: 'basketball', team_id:)
+      def self.fetch_injury(sport: 'basketball', team_id: nil)
         query_params = const_get("Stattleship::Params::#{sport.capitalize}InjuriesParams").new
-        query_params.team_id = team_id
+
+        if team_id
+          query_params.team_id = team_id
+        end
 
         injuries = const_get("Stattleship::#{sport.capitalize}Injuries").fetch(params: query_params)
 

@@ -1,12 +1,12 @@
 module SlackGlickman
   module Commands
     class Videos < SlackGlickman::Commands::BaseCommand
-      command ":movie_camera: :four_leaf_clover: :basketball:" do |client, data, _match|
-        send_gif(client, data, 'boston celtics')
-      end
-
-      command ":movie_camera: :bear: :ice_hockey_stick_and_puck:" do |client, data, _match|
-        send_gif(client, data, 'boston bruins')
+      SlackGlickman::App.instance.teamoji.each do |sport|
+        sport['teams'].each do |team|
+          command ":movie_camera: #{team['emoji']['default']} #{sport['emoji']}" do |client, data, _match|
+            send_gif(client, data, "#{team['name']} #{team['nickname']}")
+          end
+        end
       end
     end
   end

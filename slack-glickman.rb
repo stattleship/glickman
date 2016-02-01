@@ -1,6 +1,9 @@
 require 'stattleship'
 require 'slack-ruby-bot'
 
+require 'slack-glickman/hooks/channel_joined'
+require 'slack-glickman/hooks/welcome'
+
 require 'slack-glickman/data/cache'
 require 'slack-glickman/stattleship/util/request_validator'
 require 'slack-glickman/stattleship/snackable'
@@ -27,3 +30,4 @@ require 'slack-glickman/commands/tips'
 require 'slack-glickman/commands/unknown'
 require 'slack-glickman/commands/venues'
 require 'slack-glickman/commands/videos'
+
