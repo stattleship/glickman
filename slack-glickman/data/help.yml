@@ -24,7 +24,7 @@ commands:
     description: Most recent player game log
   game_logs_random:
     expression: ':basketball: :game_die: <first name> <last name>'
-    description: Random player gamelog
+    description: Random player game log
   penalties:
     expression: ':package: :wolf: :ice_hockey_stick_and_puck:'
     description: Hockey penalties for a teamoji
