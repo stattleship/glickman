@@ -4,6 +4,9 @@ commands:
   colors:
     expression: ':lower_left_paintbrush: :basketball:'
     description: Colors for each sportmoji team
+  team_colors:
+    expression: ':lower_left_paintbrush: :cow: :football:'
+    description: Colors a specific sportmoji team
   injuries:
     expression: ':face_with_head_bandage: :basketball:'
     description: Random injury report for a sportmoji
