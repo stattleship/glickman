@@ -52,14 +52,14 @@ commands:
   scoring_plays:
     expression: ':tada: :crown: :ice_hockey_stick_and_puck:'
     description: Recent hockey goals scored for teamoji
-  stat_leaders:
+  basketball_stat_leaders:
     expression: ':top: :basketball: FT'
     description: 'Top three leaders for 3P, FG, A, P, FT'
-  stat_leaders:
+  football_stat_leaders:
     expression: ':top: :football: TD'
     description: 'Top three leaders for TD'
-  stat_leaders:
-    expression: ':top: :ice_hockey_stick_and_puck: FT'
+  hockey_stat_leaders:
+    expression: ':top: :ice_hockey_stick_and_puck: G'
     description: 'Top three leaders for G, A, S, P, PPG'
   slot_machine:
     expression: ':slot_machine:'
