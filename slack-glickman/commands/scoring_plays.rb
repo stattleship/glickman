@@ -16,7 +16,7 @@ module SlackGlickman
         query_params.since = '1 week ago'
 
         if sport == 'football' then
-          query_params.interval_type = 'conferencechampionships'
+          query_params.interval_type = 'superbowl'
         end
 
         scoring_plays = const_get("Stattleship::#{sport.capitalize}ScoringPlays").fetch(params: query_params).

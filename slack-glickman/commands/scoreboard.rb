@@ -14,7 +14,7 @@ module SlackGlickman
           query_params.status = 'in_progress'
 
           if statmoji == 'football' then
-            query_params.interval_type = 'conferencechampionships'
+            query_params.interval_type = 'superbowl'
           end
 
           games = const_get("Stattleship::#{sport.capitalize}Games").fetch(params: query_params)

@@ -37,7 +37,7 @@ module SlackGlickman
         query_params.on = on
 
         if sport == 'football' then
-          query_params.interval_type = 'conferencechampionships'
+          query_params.interval_type = 'superbowl'
         end
 
         const_get("Stattleship::#{sport.capitalize}TeamGameLogs").
