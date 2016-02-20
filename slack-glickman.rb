@@ -1,3 +1,4 @@
+require 'googlestaticmap'
 require 'stattleship'
 require 'slack-ruby-bot'
 
@@ -15,6 +16,7 @@ require 'slack-glickman/commands/injuries'
 require 'slack-glickman/commands/feats'
 require 'slack-glickman/commands/frivolities'
 require 'slack-glickman/commands/game_logs'
+require 'slack-glickman/commands/game_maps'
 require 'slack-glickman/commands/help'
 require 'slack-glickman/commands/penalties'
 require 'slack-glickman/commands/players'
