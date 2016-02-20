@@ -28,6 +28,9 @@ commands:
   game_logs_random:
     expression: ':basketball: :game_die: <first name> <last name>'
     description: Random player game log
+  maps:
+    expression: ':round_pushpin: :four_leaf_clover: :basketball:'
+    description: Map of sport team last 10 games
   penalties:
     expression: ':package: :wolf: :ice_hockey_stick_and_puck:'
     description: Hockey penalties for a teamoji

@@ -269,6 +269,16 @@ teamoji :football:
 
 teamoji :ice_hockey_stick_and_puck:
 
+## Maps
+
+Use [teamojis](https://github.com/stattleship/teamoji) with the :round_pushpin: and sport and team
+
+For example:
+
+:round_pushpin: :crystal_ball: :basketball:
+
+![Maps](/screenshots/basketball_map.png?raw=true "Maps")
+
 ## GIFs
 
 Random giphy for Boston Celtics ...
