@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 ruby '2.3.0'
 
 gem 'analytics-ruby', require: "segment"
-gem 'googlestaticmap'
+gem 'googlestaticmap', git: 'https://github.com/dthyresson/googlestaticmap.git'
 gem 'httparty'
 gem 'slack-ruby-bot'
 gem 'puma'

@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/dthyresson/googlestaticmap.git
+  revision: e0efcb8a9ffe40c816708f7c4c0dabff624f2153
+  specs:
+    googlestaticmap (1.2.2)
+
+GIT
   remote: https://github.com/stattleship/stattleship-ruby.git
   revision: 7dbac7844c3d50cd2c3990f508582eb7cfe13839
   specs:
@@ -55,7 +61,6 @@ GEM
       faraday_middleware-parse_oj (~> 0.3)
       launchy (~> 2.4)
     gli (2.13.4)
-    googlestaticmap (1.2.2)
     hashie (3.4.3)
     httparty (0.13.7)
       json (~> 1.8)
@@ -136,7 +141,7 @@ PLATFORMS
 DEPENDENCIES
   analytics-ruby
   foreman
-  googlestaticmap
+  googlestaticmap!
   httparty
   puma
   rack-test

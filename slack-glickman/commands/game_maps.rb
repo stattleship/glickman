@@ -8,8 +8,13 @@ module SlackGlickman
           teamoji = team['emoji']['default']
 
           command ":round_pushpin: #{teamoji} #{statmoji}" do |client, data, _match|
-            map = GoogleStaticMap.new
-            poly = MapPolygon.new(color: '0xDC143C')
+            poly = MapPolygon.new(color: '0xDC143C', geodesic: true)
+
+            map = if ENV['GOOGLE_MAPS_API_KEY']
+                    GoogleStaticMap.new(api_key: ENV['GOOGLE_MAPS_API_KEY'])
+                  else
+                    GoogleStaticMap.new
+                  end
 
             schedule(sport: sport, team_id: team['slug']).each do |game|
               location = MapLocation.new(latitude: game.latitude, longitude: game.longitude)
