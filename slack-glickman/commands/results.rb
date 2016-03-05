@@ -42,7 +42,7 @@ module SlackGlickman
 
         const_get("Stattleship::#{sport.capitalize}TeamGameLogs").
           fetch(params: query_params).
-          last(count).
+          first(count).
           reverse
       end
 

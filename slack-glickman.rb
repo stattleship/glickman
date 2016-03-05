@@ -11,6 +11,7 @@ require 'slack-glickman/stattleship/snackable'
 require 'slack-glickman/app'
 
 require 'slack-glickman/commands/base_command'
+require 'slack-glickman/commands/charts'
 require 'slack-glickman/commands/colors'
 require 'slack-glickman/commands/injuries'
 require 'slack-glickman/commands/feats'

@@ -80,6 +80,8 @@ GEM
     oj_mimic_json (1.0.1)
     ordinalize (0.0.3)
       humanize
+    plotly (0.0.1)
+      json
     puma (2.15.3)
     rack (1.6.4)
     rack-protection (1.5.3)
@@ -143,6 +145,7 @@ DEPENDENCIES
   foreman
   googlestaticmap!
   httparty
+  plotly (~> 0.0.1)
   puma
   rack-test
   rake
