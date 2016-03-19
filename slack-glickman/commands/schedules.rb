@@ -27,7 +27,7 @@ module SlackGlickman
         end
       end
 
-      ['basketball', 'football', 'hockey'].each do |sport|
+      ['basketball', 'football', 'hockey', 'baseball'].each do |sport|
         statmoji = if sport == 'hockey'
                      'ice_hockey_stick_and_puck'
                     else

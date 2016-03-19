@@ -1,1675 +1,2485 @@
 {
-  "teamoji": [
+  "teamoji":[
     {
-      "sport": "basketball",
-      "emoji": ":basketball:",
-      "teams": [
+      "emoji":":baseball:",
+      "sport":"baseball",
+      "teams":[
         {
-          "abbreviation": "ATL",
-          "emoji": {
-            "default": ":bird:",
-            "slack": ":bird:",
-            "twitter": ":bird:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Atlanta",
-          "name": "Atlanta",
-          "nickname": "Hawks",
-          "slug": "nba-atl",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"ARI",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":snake:",
+            "slack":":snake:",
+            "twitter":":snake:"
+          },
+          "league":"MLB",
+          "location":"Arizona",
+          "name":"Arizona",
+          "nickname":"Diamondbacks",
+          "slug":"mlb-ari",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "BOS",
-          "emoji": {
-            "default": ":four_leaf_clover:",
-            "slack": ":four_leaf_clover:",
-            "twitter": ":four_leaf_clover:",
-            "alternates": [":shamrock:"]
-            },
-          "league": "NBA",
-          "location": "Boston",
-          "name": "Boston",
-          "nickname": "Celtics",
-          "slug": "nba-bos",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"ATL",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Atlanta",
+          "name":"Atlanta",
+          "nickname":"Braves",
+          "slug":"mlb-atl",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "BK",
-          "emoji": {
-            "default": ":circus_tent:",
-            "slack": ":spider_web:",
-            "twitter": ":circus_tent:",
-            "alternates": [":circus_tent:", ":hotdog:"]
-            },
-          "league": "NBA",
-          "location": "Brooklyn",
-          "name": "Brooklyn",
-          "nickname": "Nets",
-          "slug": "nba-bk",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"BAL",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Baltimore",
+          "name":"Baltimore",
+          "nickname":"Orioles",
+          "slug":"mlb-bal",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "CHA",
-          "emoji": {
-            "default": ":honeybee:",
-            "slack": ":bee:",
-            "twitter": ":honeybee:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Charlotte",
-          "name": "Charlotte",
-          "nickname": "Hornets",
-          "slug": "nba-cha",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"BOS",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Boston",
+          "name":"Boston",
+          "nickname":"Red Sox",
+          "slug":"mlb-bos",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "CHI",
-          "emoji": {
-            "default": ":cow:",
-            "slack": ":cow:",
-            "twitter": ":cow:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Chicago",
-          "name": "Chicago",
-          "nickname": "Bulls",
-          "slug": "nba-chi",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"CHC",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":bear:",
+            "slack":":bear:",
+            "twitter":":bear:"
+          },
+          "league":"MLB",
+          "location":"Chicago",
+          "name":"Chi. Cubs",
+          "nickname":"Cubs",
+          "slug":"mlb-chc",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "CLE",
-          "emoji": {
-            "default": ":guitar:",
-            "slack": ":crossed_swords:",
-            "twitter": ":guitar:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Cleveland",
-          "name": "Cleveland",
-          "nickname": "Cavaliers",
-          "slug": "nba-cle",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"CHW",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Chicago",
+          "name":"Chi. White Sox",
+          "nickname":"White Sox",
+          "slug":"mlb-chw",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "DAL",
-          "emoji": {
-            "default": ":flag_cu:",
-            "slack": ":flag-cu:",
-            "twitter": ":flag_cu:",
-            "alternates": [":flag_cu:"]
-            },
-          "league": "NBA",
-          "location": "Dallas",
-          "name": "Dallas",
-          "nickname": "Mavericks",
-          "slug": "nba-dal",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"CIN",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":red_circle:",
+            "slack":":red_circle:",
+            "twitter":":red_circle:"
+          },
+          "league":"MLB",
+          "location":"Cincinnati",
+          "name":"Cincinnati",
+          "nickname":"Reds",
+          "slug":"mlb-cin",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "DEN",
-          "emoji": {
-            "default": ":sunrise_over_mountains:",
-            "slack": ":pick:",
-            "twitter": ":sunrise_over_mountains:",
-            "alternates": [":hammer_pick:"]
-            },
-          "league": "NBA",
-          "location": "Denver",
-          "name": "Denver",
-          "nickname": "Nuggets",
-          "slug": "nba-den",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"CLE",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Cleveland",
+          "name":"Cleveland",
+          "nickname":"Indians",
+          "slug":"mlb-cle",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "DET",
-          "emoji": {
-            "default": ":blue_car:",
-            "slack": ":blue_car:",
-            "twitter": ":blue_car:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Detroit",
-          "name": "Detroit",
-          "nickname": "Pistons",
-          "slug": "nba-det",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"COL",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":mountain:",
+            "slack":":mountain:",
+            "twitter":":mountain:"
+          },
+          "league":"MLB",
+          "location":"Colorado",
+          "name":"Colorado",
+          "nickname":"Rockies",
+          "slug":"mlb-col",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "GS",
-          "emoji": {
-            "default": ":bridge_at_night:",
-            "slack": ":bridge_at_night:",
-            "twitter": ":bridge_at_night:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Golden State",
-          "name": "Golden State",
-          "nickname": "Warriors",
-          "slug": "nba-gs",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"DET",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":tiger:",
+            "slack":":tiger:",
+            "twitter":":tiger:"
+          },
+          "league":"MLB",
+          "location":"Detroit",
+          "name":"Detroit",
+          "nickname":"Tigers",
+          "slug":"mlb-det",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "HOU",
-          "emoji": {
-            "default": ":rocket:",
-            "slack": ":rocket:",
-            "twitter": ":rocket:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Houston",
-          "name": "Houston",
-          "nickname": "Rockets",
-          "slug": "nba-hou",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"HOU",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":rocket:",
+            "slack":":rocket:",
+            "twitter":":rocket:"
+          },
+          "league":"MLB",
+          "location":"Houston",
+          "name":"Houston",
+          "nickname":"Astros",
+          "slug":"mlb-hou",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "IND",
-          "emoji": {
-            "default": ":car:",
-            "slack": ":footprints:",
-            "twitter": ":car:",
-            "alternates": [":racing_car:", ":red_car"]
-            },
-          "league": "NBA",
-          "location": "Indiana",
-          "name": "Indiana",
-          "nickname": "Pacers",
-          "slug": "nba-ind",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"KC",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":crown:",
+            "slack":":crown:",
+            "twitter":":crown:"
+          },
+          "league":"MLB",
+          "location":"Kansas City",
+          "name":"Kansas City",
+          "nickname":"Royals",
+          "slug":"mlb-kc",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "LAC",
-          "emoji": {
-            "default": ":scissors:",
-            "slack": ":scissors:",
-            "twitter": ":scissors:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Los Angeles",
-          "name": "L.A. Clippers",
-          "nickname": "Clippers",
-          "slug": "nba-lac",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"LAA",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":angel:",
+            "slack":":angel:",
+            "twitter":":angel:"
+          },
+          "league":"MLB",
+          "location":"Los Angeles",
+          "name":"LA Angels",
+          "nickname":"Angels",
+          "slug":"mlb-laa",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "LAL",
-          "emoji": {
-            "default": ":sunglasses:",
-            "slack": ":sunglasses:",
-            "twitter": ":sunglasses:",
-            "alternates": [":movie_camera:", ""]
-            },
-          "league": "NBA",
-          "location": "Los Angeles",
-          "name": "L.A. Lakers",
-          "nickname": "Lakers",
-          "slug": "nba-lal",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"LA",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Los Angeles",
+          "name":"LA Dodgers",
+          "nickname":"Dodgers",
+          "slug":"mlb-la",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "MEM",
-          "emoji": {
-            "default": ":bear:",
-            "slack": ":bear:",
-            "twitter": ":bear:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Memphis",
-          "name": "Memphis",
-          "nickname": "Grizzlies",
-          "slug": "nba-mem",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"MIA",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":fish:",
+            "slack":":fish:",
+            "twitter":":fish:"
+          },
+          "league":"MLB",
+          "location":"Miami",
+          "name":"Miami",
+          "nickname":"Marlins",
+          "slug":"mlb-mia",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "MIA",
-          "emoji": {
-            "default": ":hotsprings:",
-            "slack": ":thermometer:",
-            "twitter": ":hotsprings:",
-            "alternates": [":fire:", ":hot_pepper:", ":hotsprings:", ":thermometer:"]
-            },
-          "league": "NBA",
-          "location": "Miami",
-          "name": "Miami",
-          "nickname": "Heat",
-          "slug": "nba-mia",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"MIL",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":beer:",
+            "slack":":beer:",
+            "twitter":":beer:"
+          },
+          "league":"MLB",
+          "location":"Milwaukee",
+          "name":"Milwaukee",
+          "nickname":"Brewers",
+          "slug":"mlb-mil",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "MIL",
-          "emoji": {
-            "default": ":beer:",
-            "slack": ":beer:",
-            "twitter": ":beer:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Milwaukee",
-          "name": "Milwaukee",
-          "nickname": "Bucks",
-          "slug": "nba-mil",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"MIN",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Minnesota",
+          "name":"Minnesota",
+          "nickname":"Twins",
+          "slug":"mlb-min",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "MIN",
-          "emoji": {
-            "default": ":wolf:",
-            "slack": ":wolf:",
-            "twitter": ":wolf:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Minnesota",
-          "name": "Minnesota",
-          "nickname": "Timberwolves",
-          "slug": "nba-min",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"NYM",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"New York",
+          "name":"NY Mets",
+          "nickname":"Mets",
+          "slug":"mlb-nym",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "NO",
-          "emoji": {
-            "default": ":trumpet:",
-            "slack": ":fleur_de_lis:",
-            "twitter": ":trumpet:",
-            "alternates": [":fleur_de_lis:", ":tada:", ":trumpet:"]
-            },
-          "league": "NBA",
-          "location": "New Orleans",
-          "name": "New Orleans",
-          "nickname": "Pelicans",
-          "slug": "nba-no",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"NYY",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"New York",
+          "name":"NY Yankees",
+          "nickname":"Yankees",
+          "slug":"mlb-nyy",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "NY",
-          "emoji": {
-            "default": ":statue_of_liberty:",
-            "slack": ":statue_of_liberty:",
-            "twitter": ":statue_of_liberty:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "New York",
-          "name": "New York",
-          "nickname": "Knicks",
-          "slug": "nba-ny",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"OAK",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":athletic_shoe:",
+            "slack":":athletic_shoe:",
+            "twitter":":athletic_shoe:"
+          },
+          "league":"MLB",
+          "location":"Oakland",
+          "name":"Oakland",
+          "nickname":"Athletics",
+          "slug":"mlb-oak",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "OKC",
-          "emoji": {
-            "default": ":zap:",
-            "slack": ":thunder_cloud_and_rain:",
-            "twitter": ":thunder_cloud_and_rain:",
-            "alternates": [":thunder_cloud_and_rain:", ":cloud_lightning:", ":zap:"]
-            },
-          "league": "NBA",
-          "location": "Oklahoma City",
-          "name": "Oklahoma City",
-          "nickname": "Thunder",
-          "slug": "nba-okc",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"PHI",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Philadelphia",
+          "name":"Philadelphia",
+          "nickname":"Phillies",
+          "slug":"mlb-phi",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "ORL",
-          "emoji": {
-            "default": ":tophat:",
-            "slack": ":tophat:",
-            "twitter": ":tophat:",
-            "alternates": [":rabbit:", ":man_in_business_suit_levitating:"]
-            },
-          "league": "NBA",
-          "location": "Orlando",
-          "name": "Orlando",
-          "nickname": "Magic",
-          "slug": "nba-orl",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"PIT",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Pittsburgh",
+          "name":"Pittsburgh",
+          "nickname":"Pirates",
+          "slug":"mlb-pit",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "PHI",
-          "emoji": {
-            "default": ":bell:",
-            "slack": ":bell:",
-            "twitter": ":bell:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Philadelphia",
-          "name": "Philadelphia",
-          "nickname": "76ers",
-          "slug": "nba-phi",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"SD",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"San Diego",
+          "name":"San Diego",
+          "nickname":"Padres",
+          "slug":"mlb-sd",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "PHO",
-          "emoji": {
-            "default": ":sunny:",
-            "slack": ":sunny:",
-            "twitter": ":sunny:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Phoenix",
-          "name": "Phoenix",
-          "nickname": "Suns",
-          "slug": "nba-pho",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"SF",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"San Francisco",
+          "name":"San Francisco",
+          "nickname":"Giants",
+          "slug":"mlb-sf",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "POR",
-          "emoji": {
-            "default": ":mountain_bicyclist:",
-            "slack": ":mountain_bicyclist:",
-            "twitter": ":mountain_bicyclist:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Portland",
-          "name": "Portland",
-          "nickname": "Trail Blazers",
-          "slug": "nba-por",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"SEA",
+          "emoji":{
+            "alternates":[
+            ],
+            "default":":ship:",
+            "slack":":ship:",
+            "twitter":":ship:"
+          },
+          "league":"MLB",
+          "location":"Seattle",
+          "name":"Seattle",
+          "nickname":"Mariners",
+          "slug":"mlb-sea",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "SAC",
-          "emoji": {
-            "default": ":crown:",
-            "slack": ":crown:",
-            "twitter": ":crown:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Sacramento",
-          "name": "Sacramento",
-          "nickname": "Kings",
-          "slug": "nba-sac",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"STL",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"St. Louis",
+          "name":"St. Louis",
+          "nickname":"Cardinals",
+          "slug":"mlb-stl",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "SA",
-          "emoji": {
-            "default": ":eight_pointed_black_star:",
-            "slack": ":keycap_star:",
-            "twitter": ":eight_pointed_black_star:",
-            "alternates": [":eight_spoked_asterisk:", ":keycap_star:", ":eight_pointed_black_star:"]
-            },
-          "league": "NBA",
-          "location": "San Antonio",
-          "name": "San Antonio",
-          "nickname": "Spurs",
-          "slug": "nba-sa",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"TB",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Tampa Bay",
+          "name":"Tampa Bay",
+          "nickname":"Rays",
+          "slug":"mlb-tb",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "TOR",
-          "emoji": {
-            "default": ":dragon:",
-            "slack": ":dragon:",
-            "twitter": ":dragon:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Toronto",
-          "name": "Toronto",
-          "nickname": "Raptors",
-          "slug": "nba-tor",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"TEX",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Texas",
+          "name":"Texas",
+          "nickname":"Rangers",
+          "slug":"mlb-tex",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "UTA",
-          "emoji": {
-            "default": ":saxophone:",
-            "slack": ":saxophone:",
-            "twitter": ":saxophone:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Utah",
-          "name": "Utah",
-          "nickname": "Jazz",
-          "slug": "nba-uta",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"TOR",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Toronto",
+          "name":"Toronto",
+          "nickname":"Blue Jays",
+          "slug":"mlb-tor",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         },
         {
-          "abbreviation": "WAS",
-          "emoji": {
-            "default": ":crystal_ball:",
-            "slack": ":crystal_ball:",
-            "twitter": ":crystal_ball:",
-            "alternates": []
-            },
-          "league": "NBA",
-          "location": "Washington",
-          "name": "Washington",
-          "nickname": "Wizards",
-          "slug": "nba-was",
-          "sport": {
-            "name": "basketball",
-            "emoji": ":basketball:"
+          "abbreviation":"WAS",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"MLB",
+          "location":"Washington",
+          "name":"Washington",
+          "nickname":"Nationals",
+          "slug":"mlb-was",
+          "sport":{
+            "emoji":":baseball:",
+            "name":"baseball"
           }
         }
       ]
     },
     {
-      "sport": "football",
-      "emoji": ":football:",
-      "teams": [
+      "emoji":":basketball:",
+      "sport":"basketball",
+      "teams":[
         {
-          "abbreviation": "ARI",
-          "emoji": {
-            "default": ":cactus:",
-            "slack": ":cactus:",
-            "twitter": ":cactus:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Arizona",
-          "name": "Arizona",
-          "nickname": "Cardinals",
-          "slug": "nfl-ari",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"ATL",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bird:",
+            "slack":":bird:",
+            "twitter":":bird:"
+          },
+          "league":"NBA",
+          "location":"Atlanta",
+          "name":"Atlanta",
+          "nickname":"Hawks",
+          "slug":"nba-atl",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "ATL",
-          "emoji": {
-            "default": ":bird:",
-            "slack": ":bird:",
-            "twitter": ":bird:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Atlanta",
-          "name": "Atlanta",
-          "nickname": "Falcons",
-          "slug": "nfl-atl",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"BOS",
+          "emoji":{
+            "alternates":[
+              ":shamrock:"
+            ],
+            "default":":four_leaf_clover:",
+            "slack":":four_leaf_clover:",
+            "twitter":":four_leaf_clover:"
+          },
+          "league":"NBA",
+          "location":"Boston",
+          "name":"Boston",
+          "nickname":"Celtics",
+          "slug":"nba-bos",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "BAL",
-          "emoji": {
-            "default": ":notebook:",
-            "slack": ":crab:",
-            "twitter": ":notebook:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Baltimore",
-          "name": "Baltimore",
-          "nickname": "Ravens",
-          "slug": "nfl-bal",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"BK",
+          "emoji":{
+            "alternates":[
+              ":circus_tent:",
+              ":hotdog:"
+            ],
+            "default":":circus_tent:",
+            "slack":":spider_web:",
+            "twitter":":circus_tent:"
+          },
+          "league":"NBA",
+          "location":"Brooklyn",
+          "name":"Brooklyn",
+          "nickname":"Nets",
+          "slug":"nba-bk",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "BUF",
-          "emoji": {
-            "default": ":water_buffalo:",
-            "slack": ":water_buffalo:",
-            "twitter": ":water_buffalo:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Buffalo",
-          "name": "Buffalo",
-          "nickname": "Bills",
-          "slug": "nfl-buf",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"CHA",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bee:",
+            "slack":":bee:",
+            "twitter":":honeybee:"
+          },
+          "league":"NBA",
+          "location":"Charlotte",
+          "name":"Charlotte",
+          "nickname":"Hornets",
+          "slug":"nba-cha",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "CAR",
-          "emoji": {
-            "default": ":cat:",
-            "slack": ":cat:",
-            "twitter": ":cat:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Carolina",
-          "name": "Carolina",
-          "nickname": "Panthers",
-          "slug": "nfl-car",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"CHI",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":cow:",
+            "slack":":cow:",
+            "twitter":":cow:"
+          },
+          "league":"NBA",
+          "location":"Chicago",
+          "name":"Chicago",
+          "nickname":"Bulls",
+          "slug":"nba-chi",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "CHI",
-          "emoji": {
-            "default": ":bear:",
-            "slack": ":bear:",
-            "twitter": ":bear:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Chicago",
-          "name": "Chicago",
-          "nickname": "Bears",
-          "slug": "nfl-chi",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"CLE",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":guitar:",
+            "slack":":crossed_swords:",
+            "twitter":":guitar:"
+          },
+          "league":"NBA",
+          "location":"Cleveland",
+          "name":"Cleveland",
+          "nickname":"Cavaliers",
+          "slug":"nba-cle",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "CIN",
-          "emoji": {
-            "default": ":tiger:",
-            "slack": ":tiger:",
-            "twitter": ":tiger:",
-            "alternates": [":tiger2:"]
-            },
-          "league": "NFL",
-          "location": "Cincinnati",
-          "name": "Cincinnati",
-          "nickname": "Bengals",
-          "slug": "nfl-cin",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"DAL",
+          "emoji":{
+            "alternates":[
+              ":flag_cu:"
+            ],
+            "default":":flag_cu:",
+            "slack":":flag-cu:",
+            "twitter":":flag_cu:"
+          },
+          "league":"NBA",
+          "location":"Dallas",
+          "name":"Dallas",
+          "nickname":"Mavericks",
+          "slug":"nba-dal",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "CLE",
-          "emoji": {
-            "default": ":poop:",
-            "slack": ":poop:",
-            "twitter": ":poop:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Cleveland",
-          "name": "Cleveland",
-          "nickname": "Browns",
-          "slug": "nfl-cle",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"DEN",
+          "emoji":{
+            "alternates":[
+              ":hammer_pick:"
+            ],
+            "default":":sunrise_over_mountains:",
+            "slack":":pick:",
+            "twitter":":sunrise_over_mountains:"
+          },
+          "league":"NBA",
+          "location":"Denver",
+          "name":"Denver",
+          "nickname":"Nuggets",
+          "slug":"nba-den",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "DAL",
-          "emoji": {
-            "default": ":cow:",
-            "slack": ":cow:",
-            "twitter": ":cow:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Dallas",
-          "name": "Dallas",
-          "nickname": "Cowboys",
-          "slug": "nfl-dal",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"DET",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":blue_car:",
+            "slack":":blue_car:",
+            "twitter":":blue_car:"
+          },
+          "league":"NBA",
+          "location":"Detroit",
+          "name":"Detroit",
+          "nickname":"Pistons",
+          "slug":"nba-det",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "DEN",
-          "emoji": {
-            "default": ":horse_racing:",
-            "slack": ":horse_racing:",
-            "twitter": ":horse_racing:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Denver",
-          "name": "Denver",
-          "nickname": "Broncos",
-          "slug": "nfl-den",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"GS",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bridge_at_night:",
+            "slack":":bridge_at_night:",
+            "twitter":":bridge_at_night:"
+          },
+          "league":"NBA",
+          "location":"Golden State",
+          "name":"Golden State",
+          "nickname":"Warriors",
+          "slug":"nba-gs",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "DET",
-          "emoji": {
-            "default": ":oncoming_automobile:",
-            "slack": ":lion_face:",
-            "twitter": ":oncoming_automobile:",
-            "alternates": [":lion_face", ":oncoming_automobile:"]
-            },
-          "league": "NFL",
-          "location": "Detroit",
-          "name": "Detroit",
-          "nickname": "Lions",
-          "slug": "nfl-det",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"HOU",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":rocket:",
+            "slack":":rocket:",
+            "twitter":":rocket:"
+          },
+          "league":"NBA",
+          "location":"Houston",
+          "name":"Houston",
+          "nickname":"Rockets",
+          "slug":"nba-hou",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "GB",
-          "emoji": {
-            "default": ":baggage_claim:",
-            "slack": ":cheese_wedge:",
-            "twitter": ":baggage_claim:",
-            "alternates": [":cheese:"]
-            },
-          "league": "NFL",
-          "location": "Green Bay",
-          "name": "Green Bay",
-          "nickname": "Packers",
-          "slug": "nfl-gb",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"IND",
+          "emoji":{
+            "alternates":[
+              ":racing_car:",
+              ":red_car"
+            ],
+            "default":":car:",
+            "slack":":footprints:",
+            "twitter":":car:"
+          },
+          "league":"NBA",
+          "location":"Indiana",
+          "name":"Indiana",
+          "nickname":"Pacers",
+          "slug":"nba-ind",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "HOU",
-          "emoji": {
-            "default": ":fuelpump:",
-            "slack": ":oil_drum:",
-            "twitter": ":fuelpump:",
-            "alternates": [":fuelpump:", ":oil:", ":oil_drum:"]
-            },
-          "league": "NFL",
-          "location": "Houston",
-          "name": "Houston",
-          "nickname": "Texans",
-          "slug": "nfl-hou",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"LAC",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":scissors:",
+            "slack":":scissors:",
+            "twitter":":scissors:"
+          },
+          "league":"NBA",
+          "location":"Los Angeles",
+          "name":"L.A. Clippers",
+          "nickname":"Clippers",
+          "slug":"nba-lac",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "IND",
-          "emoji": {
-            "default": ":horse:",
-            "slack": ":horse:",
-            "twitter": ":horse:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Indianapolis",
-          "name": "Indianapolis",
-          "nickname": "Colts",
-          "slug": "nfl-ind",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"LAL",
+          "emoji":{
+            "alternates":[
+              ":movie_camera:",
+              ""
+            ],
+            "default":":sunglasses:",
+            "slack":":sunglasses:",
+            "twitter":":sunglasses:"
+          },
+          "league":"NBA",
+          "location":"Los Angeles",
+          "name":"L.A. Lakers",
+          "nickname":"Lakers",
+          "slug":"nba-lal",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "JAC",
-          "emoji": {
-            "default": ":tiger2:",
-            "slack": ":tiger2:",
-            "twitter": ":tiger2:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Jacksonville",
-          "name": "Jacksonville",
-          "nickname": "Jaguars",
-          "slug": "nfl-jac",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"MEM",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bear:",
+            "slack":":bear:",
+            "twitter":":bear:"
+          },
+          "league":"NBA",
+          "location":"Memphis",
+          "name":"Memphis",
+          "nickname":"Grizzlies",
+          "slug":"nba-mem",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "KC",
-          "emoji": {
-            "default": ":meat_on_bone:",
-            "slack": ":bow_and_arrow:",
-            "twitter": ":meat_on_bone:",
-            "alternates": [":meat_on_bone:"]
-            },
-          "league": "NFL",
-          "location": "Kansas City",
-          "name": "Kansas City",
-          "nickname": "Chiefs",
-          "slug": "nfl-kc",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"MIA",
+          "emoji":{
+            "alternates":[
+              ":fire:",
+              ":hot_pepper:",
+              ":hotsprings:",
+              ":thermometer:"
+            ],
+            "default":":hotsprings:",
+            "slack":":thermometer:",
+            "twitter":":hotsprings:"
+          },
+          "league":"NBA",
+          "location":"Miami",
+          "name":"Miami",
+          "nickname":"Heat",
+          "slug":"nba-mia",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "MIA",
-          "emoji": {
-            "default": ":dolphin:",
-            "slack": ":dolphin:",
-            "twitter": ":dolphin:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Miami",
-          "name": "Miami",
-          "nickname": "Dolphins",
-          "slug": "nfl-mia",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"MIL",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":beer:",
+            "slack":":beer:",
+            "twitter":":beer:"
+          },
+          "league":"NBA",
+          "location":"Milwaukee",
+          "name":"Milwaukee",
+          "nickname":"Bucks",
+          "slug":"nba-mil",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "MIN",
-          "emoji": {
-            "default": ":rowboat:",
-            "slack": ":rowboat:",
-            "twitter": ":rowboat:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Minnesota",
-          "name": "Minnesota",
-          "nickname": "Vikings",
-          "slug": "nfl-min",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"MIN",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":wolf:",
+            "slack":":wolf:",
+            "twitter":":wolf:"
+          },
+          "league":"NBA",
+          "location":"Minnesota",
+          "name":"Minnesota",
+          "nickname":"Timberwolves",
+          "slug":"nba-min",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "NYG",
-          "emoji": {
-            "default": ":mushroom:",
-            "slack": ":mushroom:",
-            "twitter": ":mushroom:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "New York",
-          "name": "N.Y. Giants",
-          "nickname": "Giants",
-          "slug": "nfl-nyg",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"NO",
+          "emoji":{
+            "alternates":[
+              ":fleur_de_lis:",
+              ":tada:",
+              ":trumpet:"
+            ],
+            "default":":trumpet:",
+            "slack":":fleur_de_lis:",
+            "twitter":":trumpet:"
+          },
+          "league":"NBA",
+          "location":"New Orleans",
+          "name":"New Orleans",
+          "nickname":"Pelicans",
+          "slug":"nba-no",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "NYJ",
-          "emoji": {
-            "default": ":airplane:",
-            "slack": ":airplane:",
-            "twitter": ":airplane:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "New York",
-          "name": "N.Y. Jets",
-          "nickname": "Jets",
-          "slug": "nfl-nyj",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"NY",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":statue_of_liberty:",
+            "slack":":statue_of_liberty:",
+            "twitter":":statue_of_liberty:"
+          },
+          "league":"NBA",
+          "location":"New York",
+          "name":"New York",
+          "nickname":"Knicks",
+          "slug":"nba-ny",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "NE",
-          "emoji": {
-            "default": ":barber:",
-            "slack": ":flag-us:",
-            "twitter": ":barber:",
-            "alternates": [":barber:", ":flag_us:"]
-            },
-          "league": "NFL",
-          "location": "New England",
-          "name": "New England",
-          "nickname": "Patriots",
-          "slug": "nfl-ne",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"OKC",
+          "emoji":{
+            "alternates":[
+              ":thunder_cloud_and_rain:",
+              ":cloud_lightning:",
+              ":zap:"
+            ],
+            "default":":zap:",
+            "slack":":thunder_cloud_and_rain:",
+            "twitter":":thunder_cloud_and_rain:"
+          },
+          "league":"NBA",
+          "location":"Oklahoma City",
+          "name":"Oklahoma City",
+          "nickname":"Thunder",
+          "slug":"nba-okc",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "NO",
-          "emoji": {
-            "default": ":trumpet:",
-            "slack": ":fleur_de_lis:",
-            "twitter": ":trumpet:",
-            "alternates": [":fleur_de_lis", ":tada:", ":trumpet:"]
-            },
-          "league": "NFL",
-          "location": "New Orleans",
-          "name": "New Orleans",
-          "nickname": "Saints",
-          "slug": "nfl-no",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"ORL",
+          "emoji":{
+            "alternates":[
+              ":rabbit:",
+              ":man_in_business_suit_levitating:"
+            ],
+            "default":":tophat:",
+            "slack":":tophat:",
+            "twitter":":tophat:"
+          },
+          "league":"NBA",
+          "location":"Orlando",
+          "name":"Orlando",
+          "nickname":"Magic",
+          "slug":"nba-orl",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "OAK",
-          "emoji": {
-            "default": ":skull:",
-            "slack": ":skull_and_crossbones:",
-            "twitter": ":skull:",
-            "alternates": [":skull:", ":skull_and_crossbones:"]
-            },
-          "league": "NFL",
-          "location": "Oakland",
-          "name": "Oakland",
-          "nickname": "Raiders",
-          "slug": "nfl-oak",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"PHI",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bell:",
+            "slack":":bell:",
+            "twitter":":bell:"
+          },
+          "league":"NBA",
+          "location":"Philadelphia",
+          "name":"Philadelphia",
+          "nickname":"76ers",
+          "slug":"nba-phi",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "PHI",
-          "emoji": {
-            "default": ":bell:",
-            "slack": ":bell:",
-            "twitter": ":bell:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Philadelphia",
-          "name": "Philadelphia",
-          "nickname": "Eagles",
-          "slug": "nfl-phi",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"PHO",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":sunny:",
+            "slack":":sunny:",
+            "twitter":":sunny:"
+          },
+          "league":"NBA",
+          "location":"Phoenix",
+          "name":"Phoenix",
+          "nickname":"Suns",
+          "slug":"nba-pho",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "PIT",
-          "emoji": {
-            "default": ":construction_worker:",
-            "slack": ":construction_worker:",
-            "twitter": ":construction_worker:",
-            "alternates": [":factory:"]
-            },
-          "league": "NFL",
-          "location": "Pittsburgh",
-          "name": "Pittsburgh",
-          "nickname": "Steelers",
-          "slug": "nfl-pit",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"POR",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":mountain_bicyclist:",
+            "slack":":mountain_bicyclist:",
+            "twitter":":mountain_bicyclist:"
+          },
+          "league":"NBA",
+          "location":"Portland",
+          "name":"Portland",
+          "nickname":"Trail Blazers",
+          "slug":"nba-por",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "SD",
-          "emoji": {
-            "default": ":battery:",
-            "slack": ":zap:",
-            "twitter": ":zap:",
-            "alternates": [":battery:", ":electric_plug:", ":zap:"]
-            },
-          "league": "NFL",
-          "location": "San Diego",
-          "name": "San Diego",
-          "nickname": "Chargers",
-          "slug": "nfl-sd",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"SAC",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":crown:",
+            "slack":":crown:",
+            "twitter":":crown:"
+          },
+          "league":"NBA",
+          "location":"Sacramento",
+          "name":"Sacramento",
+          "nickname":"Kings",
+          "slug":"nba-sac",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "SF",
-          "emoji": {
-            "default": ":bridge_at_night:",
-            "slack": ":pick:",
-            "twitter": ":bridge_at_night:",
-            "alternates": [":hammer_pick:"]
-            },
-          "league": "NFL",
-          "location": "San Francisco",
-          "name": "San Francisco",
-          "nickname": "49ers",
-          "slug": "nfl-sf",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"SA",
+          "emoji":{
+            "alternates":[
+              ":eight_spoked_asterisk:",
+              ":keycap_star:",
+              ":eight_pointed_black_star:"
+            ],
+            "default":":eight_pointed_black_star:",
+            "slack":":keycap_star:",
+            "twitter":":eight_pointed_black_star:"
+          },
+          "league":"NBA",
+          "location":"San Antonio",
+          "name":"San Antonio",
+          "nickname":"Spurs",
+          "slug":"nba-sa",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "SEA",
-          "emoji": {
-            "default": ":ocean:",
-            "slack": ":ocean:",
-            "twitter": ":ocean:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Seattle",
-          "name": "Seattle",
-          "nickname": "Seahawks",
-          "slug": "nfl-sea",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"TOR",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":dragon:",
+            "slack":":dragon:",
+            "twitter":":dragon:"
+          },
+          "league":"NBA",
+          "location":"Toronto",
+          "name":"Toronto",
+          "nickname":"Raptors",
+          "slug":"nba-tor",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "STL",
-          "emoji": {
-            "default": ":ram:",
-            "slack": ":ram:",
-            "twitter": ":ram:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "St. Louis",
-          "name": "St. Louis",
-          "nickname": "Rams",
-          "slug": "nfl-stl",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"UTA",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":saxophone:",
+            "slack":":saxophone:",
+            "twitter":":saxophone:"
+          },
+          "league":"NBA",
+          "location":"Utah",
+          "name":"Utah",
+          "nickname":"Jazz",
+          "slug":"nba-uta",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         },
         {
-          "abbreviation": "TB",
-          "emoji": {
-            "default": ":ship:",
-            "slack": ":crossed_swords:",
-            "twitter": ":ship:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Tampa Bay",
-          "name": "Tampa Bay",
-          "nickname": "Buccaneers",
-          "slug": "nfl-tb",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
-          }
-        },
-        {
-          "abbreviation": "TEN",
-          "emoji": {
-            "default": ":full_moon:",
-            "slack": ":full_moon:",
-            "twitter": ":full_moon:",
-            "alternates": []
-            },
-          "league": "NFL",
-          "location": "Tennessee",
-          "name": "Tennessee",
-          "nickname": "Titans",
-          "slug": "nfl-ten",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
-          }
-        },
-        {
-          "abbreviation": "WAS",
-          "emoji": {
-            "default": ":cherry_blossom:",
-            "slack": ":classical_building:",
-            "twitter": ":cherry_blossom:",
-            "alternates": [":cherry_blossom:", ":classical_building:"]
-            },
-          "league": "NFL",
-          "location": "Washington",
-          "name": "Washington",
-          "nickname": "Redskins",
-          "slug": "nfl-was",
-          "sport": {
-            "name": "football",
-            "emoji": ":football"
+          "abbreviation":"WAS",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":crystal_ball:",
+            "slack":":crystal_ball:",
+            "twitter":":crystal_ball:"
+          },
+          "league":"NBA",
+          "location":"Washington",
+          "name":"Washington",
+          "nickname":"Wizards",
+          "slug":"nba-was",
+          "sport":{
+            "emoji":":basketball:",
+            "name":"basketball"
           }
         }
       ]
     },
     {
-      "sport": "hockey",
-      "emoji": ":ice_hockey_stick_and_puck:",
-      "teams": [
+      "emoji":":football:",
+      "sport":"football",
+      "teams":[
         {
-          "abbreviation": "ANA",
-          "emoji": {
-            "default": ":baby_chick:",
-            "slack": ":baby_chick:",
-            "twitter": ":baby_chick:",
-            "alternates": [":hatched_chick:"]
-            },
-          "league": "NHL",
-          "location": "Anaheim",
-          "name": "Anaheim",
-          "nickname": "Ducks",
-          "slug": "nhl-ana",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"ARI",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":cactus:",
+            "slack":":cactus:",
+            "twitter":":cactus:"
+          },
+          "league":"NFL",
+          "location":"Arizona",
+          "name":"Arizona",
+          "nickname":"Cardinals",
+          "slug":"nfl-ari",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "ARI",
-          "emoji": {
-            "default": ":wolf:",
-            "slack": ":wolf:",
-            "twitter": ":wolf:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Arizona",
-          "name": "Arizona",
-          "nickname": "Coyotes",
-          "slug": "nhl-ari",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"ATL",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bird:",
+            "slack":":bird:",
+            "twitter":":bird:"
+          },
+          "league":"NFL",
+          "location":"Atlanta",
+          "name":"Atlanta",
+          "nickname":"Falcons",
+          "slug":"nfl-atl",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "BOS",
-          "emoji": {
-            "default": ":bear:",
-            "slack": ":bear:",
-            "twitter": ":bear:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Boston",
-          "name": "Boston",
-          "nickname": "Bruins",
-          "slug": "nhl-bos",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"BAL",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":notebook:",
+            "slack":":crab:",
+            "twitter":":notebook:"
+          },
+          "league":"NFL",
+          "location":"Baltimore",
+          "name":"Baltimore",
+          "nickname":"Ravens",
+          "slug":"nfl-bal",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "BUF",
-          "emoji": {
-            "default": ":water_buffalo:",
-            "slack": ":crossed_swords:",
-            "twitter": ":water_buffalo:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Buffalo",
-          "name": "Buffalo",
-          "nickname": "Sabres",
-          "slug": "nhl-buf",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"BUF",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":water_buffalo:",
+            "slack":":water_buffalo:",
+            "twitter":":water_buffalo:"
+          },
+          "league":"NFL",
+          "location":"Buffalo",
+          "name":"Buffalo",
+          "nickname":"Bills",
+          "slug":"nfl-buf",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "CAL",
-          "emoji": {
-            "default": ":fire:",
-            "slack": ":fire:",
-            "twitter": ":fire:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Calgary",
-          "name": "Calgary",
-          "nickname": "Flames",
-          "slug": "nhl-cal",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"CAR",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":cat:",
+            "slack":":cat:",
+            "twitter":":cat:"
+          },
+          "league":"NFL",
+          "location":"Carolina",
+          "name":"Carolina",
+          "nickname":"Panthers",
+          "slug":"nfl-car",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "CAR",
-          "emoji": {
-            "default": ":cyclone:",
-            "slack": ":cyclone:",
-            "twitter": ":cyclone:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Carolina",
-          "name": "Carolina",
-          "nickname": "Hurricanes",
-          "slug": "nhl-car",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"CHI",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bear:",
+            "slack":":bear:",
+            "twitter":":bear:"
+          },
+          "league":"NFL",
+          "location":"Chicago",
+          "name":"Chicago",
+          "nickname":"Bears",
+          "slug":"nfl-chi",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "CHI",
-          "emoji": {
-            "default": ":bird:",
-            "slack": ":bird:",
-            "twitter": ":bird:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Chicago",
-          "name": "Chicago",
-          "nickname": "Blackhawks",
-          "slug": "nhl-chi",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"CIN",
+          "emoji":{
+            "alternates":[
+              ":tiger2:"
+            ],
+            "default":":tiger:",
+            "slack":":tiger:",
+            "twitter":":tiger:"
+          },
+          "league":"NFL",
+          "location":"Cincinnati",
+          "name":"Cincinnati",
+          "nickname":"Bengals",
+          "slug":"nfl-cin",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "COL",
-          "emoji": {
-            "default": ":snowflake:",
-            "slack": ":snow_capped_mountain:",
-            "twitter": ":snowflake:",
-            "alternates": [":snowflake:", ":snow_capped_mountain:"]
-            },
-          "league": "NHL",
-          "location": "Colorado",
-          "name": "Colorado",
-          "nickname": "Avalanche",
-          "slug": "nhl-col",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"CLE",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":poop:",
+            "slack":":poop:",
+            "twitter":":poop:"
+          },
+          "league":"NFL",
+          "location":"Cleveland",
+          "name":"Cleveland",
+          "nickname":"Browns",
+          "slug":"nfl-cle",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "CLB",
-          "emoji": {
-            "default": ":honeybee:",
-            "slack": ":bee:",
-            "twitter": ":honeybee:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Columbus",
-          "name": "Columbus",
-          "nickname": "Blue Jackets",
-          "slug": "nhl-clb",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"DAL",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":cow:",
+            "slack":":cow:",
+            "twitter":":cow:"
+          },
+          "league":"NFL",
+          "location":"Dallas",
+          "name":"Dallas",
+          "nickname":"Cowboys",
+          "slug":"nfl-dal",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "DAL",
-          "emoji": {
-            "default": ":star:",
-            "slack": ":star:",
-            "twitter": ":star:",
-            "alternates": [":stars:"]
-            },
-          "league": "NHL",
-          "location": "Dallas",
-          "name": "Dallas",
-          "nickname": "Stars",
-          "slug": "nhl-dal",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"DEN",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":horse_racing:",
+            "slack":":horse_racing:",
+            "twitter":":horse_racing:"
+          },
+          "league":"NFL",
+          "location":"Denver",
+          "name":"Denver",
+          "nickname":"Broncos",
+          "slug":"nfl-den",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "DET",
-          "emoji": {
-            "default": ":octopus:",
-            "slack": ":octopus:",
-            "twitter": ":octopus:",
-            "alternates": [":red_car:"]
-            },
-          "league": "NHL",
-          "location": "Detroit",
-          "name": "Detroit",
-          "nickname": "Red Wings",
-          "slug": "nhl-det",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"DET",
+          "emoji":{
+            "alternates":[
+              ":lion_face",
+              ":oncoming_automobile:"
+            ],
+            "default":":oncoming_automobile:",
+            "slack":":lion_face:",
+            "twitter":":oncoming_automobile:"
+          },
+          "league":"NFL",
+          "location":"Detroit",
+          "name":"Detroit",
+          "nickname":"Lions",
+          "slug":"nfl-det",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "EDM",
-          "emoji": {
-            "default": ":fuelpump:",
-            "slack": ":oil_drum:",
-            "twitter": ":fuelpump:",
-            "alternates": [":fuelpump:", ":oil:", ":oil_drum:"]
-            },
-          "league": "NHL",
-          "location": "Edmonton",
-          "name": "Edmonton",
-          "nickname": "Oilers",
-          "slug": "nhl-edm",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"GB",
+          "emoji":{
+            "alternates":[
+              ":cheese:"
+            ],
+            "default":":baggage_claim:",
+            "slack":":cheese_wedge:",
+            "twitter":":baggage_claim:"
+          },
+          "league":"NFL",
+          "location":"Green Bay",
+          "name":"Green Bay",
+          "nickname":"Packers",
+          "slug":"nfl-gb",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "FLA",
-          "emoji": {
-            "default": ":sunrise:",
-            "slack": ":sunrise:",
-            "twitter": ":sunrise:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Florida",
-          "name": "Florida",
-          "nickname": "Panthers",
-          "slug": "nhl-fla",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"HOU",
+          "emoji":{
+            "alternates":[
+              ":fuelpump:",
+              ":oil:",
+              ":oil_drum:"
+            ],
+            "default":":fuelpump:",
+            "slack":":oil_drum:",
+            "twitter":":fuelpump:"
+          },
+          "league":"NFL",
+          "location":"Houston",
+          "name":"Houston",
+          "nickname":"Texans",
+          "slug":"nfl-hou",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "LA",
-          "emoji": {
-            "default": ":crown:",
-            "slack": ":crown:",
-            "twitter": ":crown:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Los Angeles",
-          "name": "Los Angeles",
-          "nickname": "Kings",
-          "slug": "nhl-la",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"IND",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":horse:",
+            "slack":":horse:",
+            "twitter":":horse:"
+          },
+          "league":"NFL",
+          "location":"Indianapolis",
+          "name":"Indianapolis",
+          "nickname":"Colts",
+          "slug":"nfl-ind",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "MIN",
-          "emoji": {
-            "default": ":evergreen_tree:",
-            "slack": ":evergreen_tree:",
-            "twitter": ":evergreen_tree:",
-            "alternates": [":wolf:"]
-            },
-          "league": "NHL",
-          "location": "Minnesota",
-          "name": "Minnesota",
-          "nickname": "Wild",
-          "slug": "nhl-min",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"JAC",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":tiger2:",
+            "slack":":tiger2:",
+            "twitter":":tiger2:"
+          },
+          "league":"NFL",
+          "location":"Jacksonville",
+          "name":"Jacksonville",
+          "nickname":"Jaguars",
+          "slug":"nfl-jac",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "MON",
-          "emoji": {
-            "default": ":copyright:",
-            "slack": ":flag-ca:",
-            "twitter": ":copyright:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Montreal",
-          "name": "Montreal",
-          "nickname": "Canadiens",
-          "slug": "nhl-mon",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"KC",
+          "emoji":{
+            "alternates":[
+              ":meat_on_bone:"
+            ],
+            "default":":meat_on_bone:",
+            "slack":":bow_and_arrow:",
+            "twitter":":meat_on_bone:"
+          },
+          "league":"NFL",
+          "location":"Kansas City",
+          "name":"Kansas City",
+          "nickname":"Chiefs",
+          "slug":"nfl-kc",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "NYI",
-          "emoji": {
-            "default": ":circus_tent:",
-            "slack": ":desert_island:",
-            "twitter": ":circus_tent:",
-            "alternates": [":circus_tent:", ":desert_island:"]
-            },
-          "league": "NHL",
-          "location": "New York",
-          "name": "NY Islanders",
-          "nickname": "Islanders",
-          "slug": "nhl-nyi",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"MIA",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":dolphin:",
+            "slack":":dolphin:",
+            "twitter":":dolphin:"
+          },
+          "league":"NFL",
+          "location":"Miami",
+          "name":"Miami",
+          "nickname":"Dolphins",
+          "slug":"nfl-mia",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "NYR",
-          "emoji": {
-            "default": ":statue_of_liberty:",
-            "slack": ":statue_of_liberty:",
-            "twitter": ":statue_of_liberty:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "New York",
-          "name": "NY Rangers",
-          "nickname": "Rangers",
-          "slug": "nhl-nyr",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"MIN",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":rowboat:",
+            "slack":":rowboat:",
+            "twitter":":rowboat:"
+          },
+          "league":"NFL",
+          "location":"Minnesota",
+          "name":"Minnesota",
+          "nickname":"Vikings",
+          "slug":"nfl-min",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "NAS",
-          "emoji": {
-            "default": ":leopard:",
-            "slack": ":leopard:",
-            "twitter": ":leopard:",
-            "alternates": [":guitar:"]
-            },
-          "league": "NHL",
-          "location": "Nashville",
-          "name": "Nashville",
-          "nickname": "Predators",
-          "slug": "nhl-nas",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"NYG",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":mushroom:",
+            "slack":":mushroom:",
+            "twitter":":mushroom:"
+          },
+          "league":"NFL",
+          "location":"New York",
+          "name":"N.Y. Giants",
+          "nickname":"Giants",
+          "slug":"nfl-nyg",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "NJ",
-          "emoji": {
-            "default": ":smiling_imp:",
-            "slack": ":smiling_imp:",
-            "twitter": ":smiling_imp:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "New Jersey",
-          "name": "New Jersey",
-          "nickname": "Devils",
-          "slug": "nhl-nj",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"NYJ",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":airplane:",
+            "slack":":airplane:",
+            "twitter":":airplane:"
+          },
+          "league":"NFL",
+          "location":"New York",
+          "name":"N.Y. Jets",
+          "nickname":"Jets",
+          "slug":"nfl-nyj",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "OTT",
-          "emoji": {
-            "default": ":beginner:",
-            "slack": ":shield:",
-            "twitter": ":beginner:",
-            "alternates": [":beginner:", ":shield:"]
-            },
-          "league": "NHL",
-          "location": "Ottawa",
-          "name": "Ottawa",
-          "nickname": "Senators",
-          "slug": "nhl-ott",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"NE",
+          "emoji":{
+            "alternates":[
+              ":barber:",
+              ":flag_us:"
+            ],
+            "default":":barber:",
+            "slack":":flag-us:",
+            "twitter":":barber:"
+          },
+          "league":"NFL",
+          "location":"New England",
+          "name":"New England",
+          "nickname":"Patriots",
+          "slug":"nfl-ne",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "PHI",
-          "emoji": {
-            "default": ":orange_book:",
-            "slack": ":orange_book:",
-            "twitter": ":orange_book:",
-            "alternates": [":small_airplane:"]
-            },
-          "league": "NHL",
-          "location": "Philadelphia",
-          "name": "Philadelphia",
-          "nickname": "Flyers",
-          "slug": "nhl-phi",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"NO",
+          "emoji":{
+            "alternates":[
+              ":fleur_de_lis",
+              ":tada:",
+              ":trumpet:"
+            ],
+            "default":":trumpet:",
+            "slack":":fleur_de_lis:",
+            "twitter":":trumpet:"
+          },
+          "league":"NFL",
+          "location":"New Orleans",
+          "name":"New Orleans",
+          "nickname":"Saints",
+          "slug":"nfl-no",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "PIT",
-          "emoji": {
-            "default": ":penguin:",
-            "slack": ":penguin:",
-            "twitter": ":penguin:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Pittsburgh",
-          "name": "Pittsburgh",
-          "nickname": "Penguins",
-          "slug": "nhl-pit",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"OAK",
+          "emoji":{
+            "alternates":[
+              ":skull:",
+              ":skull_and_crossbones:"
+            ],
+            "default":":skull:",
+            "slack":":skull_and_crossbones:",
+            "twitter":":skull:"
+          },
+          "league":"NFL",
+          "location":"Oakland",
+          "name":"Oakland",
+          "nickname":"Raiders",
+          "slug":"nfl-oak",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "SJ",
-          "emoji": {
-            "default": ":fish:",
-            "slack": ":fish:",
-            "twitter": ":fish:",
-            "alternates": [":computer:", ":shark:"]
-            },
-          "league": "NHL",
-          "location": "San Jose",
-          "name": "San Jose",
-          "nickname": "Sharks",
-          "slug": "nhl-sj",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"PHI",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bell:",
+            "slack":":bell:",
+            "twitter":":bell:"
+          },
+          "league":"NFL",
+          "location":"Philadelphia",
+          "name":"Philadelphia",
+          "nickname":"Eagles",
+          "slug":"nfl-phi",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "STL",
-          "emoji": {
-            "default": ":saxophone:",
-            "slack": ":saxophone:",
-            "twitter": ":saxophone:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "St. Louis",
-          "name": "St. Louis",
-          "nickname": "Blues",
-          "slug": "nhl-stl",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"PIT",
+          "emoji":{
+            "alternates":[
+              ":factory:"
+            ],
+            "default":":construction_worker:",
+            "slack":":construction_worker:",
+            "twitter":":construction_worker:"
+          },
+          "league":"NFL",
+          "location":"Pittsburgh",
+          "name":"Pittsburgh",
+          "nickname":"Steelers",
+          "slug":"nfl-pit",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "TB",
-          "emoji": {
-            "default": ":zap:",
-            "slack": ":zap:",
-            "twitter": ":zap:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Tampa Bay",
-          "name": "Tampa Bay",
-          "nickname": "Lightning",
-          "slug": "nhl-tb",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"SD",
+          "emoji":{
+            "alternates":[
+              ":battery:",
+              ":electric_plug:",
+              ":zap:"
+            ],
+            "default":":battery:",
+            "slack":":zap:",
+            "twitter":":zap:"
+          },
+          "league":"NFL",
+          "location":"San Diego",
+          "name":"San Diego",
+          "nickname":"Chargers",
+          "slug":"nfl-sd",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "TOR",
-          "emoji": {
-            "default": ":maple_leaf:",
-            "slack": ":maple_leaf:",
-            "twitter": ":maple_leaf:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Toronto",
-          "name": "Toronto",
-          "nickname": "Maple Leafs",
-          "slug": "nhl-tor",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"SF",
+          "emoji":{
+            "alternates":[
+              ":hammer_pick:"
+            ],
+            "default":":bridge_at_night:",
+            "slack":":pick:",
+            "twitter":":bridge_at_night:"
+          },
+          "league":"NFL",
+          "location":"San Francisco",
+          "name":"San Francisco",
+          "nickname":"49ers",
+          "slug":"nfl-sf",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "VAN",
-          "emoji": {
-            "default": ":snowboarder:",
-            "slack": ":skier:",
-            "twitter": ":snowboarder:",
-            "alternates": [":mountain:", ":snowboarder:", ":ski:", ":skier:"]
-            },
-          "league": "NHL",
-          "location": "Vancouver",
-          "name": "Vancouver",
-          "nickname": "Canucks",
-          "slug": "nhl-van",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"SEA",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":ocean:",
+            "slack":":ocean:",
+            "twitter":":ocean:"
+          },
+          "league":"NFL",
+          "location":"Seattle",
+          "name":"Seattle",
+          "nickname":"Seahawks",
+          "slug":"nfl-sea",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "WAS",
-          "emoji": {
-            "default": ":capital_abcd:",
-            "slack": ":capital_abcd:",
-            "twitter": ":capital_abcd:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Washington",
-          "name": "Washington",
-          "nickname": "Capitals",
-          "slug": "nhl-was",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"STL",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":ram:",
+            "slack":":ram:",
+            "twitter":":ram:"
+          },
+          "league":"NFL",
+          "location":"St. Louis",
+          "name":"St. Louis",
+          "nickname":"Rams",
+          "slug":"nfl-stl",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
           }
         },
         {
-          "abbreviation": "WIN",
-          "emoji": {
-            "default": ":airplane:",
-            "slack": ":airplane:",
-            "twitter": ":airplane:",
-            "alternates": []
-            },
-          "league": "NHL",
-          "location": "Winnipeg",
-          "name": "Winnipeg",
-          "nickname": "Jets",
-          "slug": "nhl-win",
-          "sport": {
-            "name": "hockey",
-            "emoji": ":ice_hockey_stick_and_puck"
+          "abbreviation":"TB",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":ship:",
+            "slack":":crossed_swords:",
+            "twitter":":ship:"
+          },
+          "league":"NFL",
+          "location":"Tampa Bay",
+          "name":"Tampa Bay",
+          "nickname":"Buccaneers",
+          "slug":"nfl-tb",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
+          }
+        },
+        {
+          "abbreviation":"TEN",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":full_moon:",
+            "slack":":full_moon:",
+            "twitter":":full_moon:"
+          },
+          "league":"NFL",
+          "location":"Tennessee",
+          "name":"Tennessee",
+          "nickname":"Titans",
+          "slug":"nfl-ten",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
+          }
+        },
+        {
+          "abbreviation":"WAS",
+          "emoji":{
+            "alternates":[
+              ":cherry_blossom:",
+              ":classical_building:"
+            ],
+            "default":":cherry_blossom:",
+            "slack":":classical_building:",
+            "twitter":":cherry_blossom:"
+          },
+          "league":"NFL",
+          "location":"Washington",
+          "name":"Washington",
+          "nickname":"Redskins",
+          "slug":"nfl-was",
+          "sport":{
+            "emoji":":football",
+            "name":"football"
+          }
+        }
+      ]
+    },
+    {
+      "emoji":":ice_hockey_stick_and_puck:",
+      "sport":"hockey",
+      "teams":[
+        {
+          "abbreviation":"ANA",
+          "emoji":{
+            "alternates":[
+              ":hatched_chick:"
+            ],
+            "default":":baby_chick:",
+            "slack":":baby_chick:",
+            "twitter":":baby_chick:"
+          },
+          "league":"NHL",
+          "location":"Anaheim",
+          "name":"Anaheim",
+          "nickname":"Ducks",
+          "slug":"nhl-ana",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"ARI",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":wolf:",
+            "slack":":wolf:",
+            "twitter":":wolf:"
+          },
+          "league":"NHL",
+          "location":"Arizona",
+          "name":"Arizona",
+          "nickname":"Coyotes",
+          "slug":"nhl-ari",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"BOS",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bear:",
+            "slack":":bear:",
+            "twitter":":bear:"
+          },
+          "league":"NHL",
+          "location":"Boston",
+          "name":"Boston",
+          "nickname":"Bruins",
+          "slug":"nhl-bos",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"BUF",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":water_buffalo:",
+            "slack":":crossed_swords:",
+            "twitter":":water_buffalo:"
+          },
+          "league":"NHL",
+          "location":"Buffalo",
+          "name":"Buffalo",
+          "nickname":"Sabres",
+          "slug":"nhl-buf",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"CAL",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":fire:",
+            "slack":":fire:",
+            "twitter":":fire:"
+          },
+          "league":"NHL",
+          "location":"Calgary",
+          "name":"Calgary",
+          "nickname":"Flames",
+          "slug":"nhl-cal",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"CAR",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":cyclone:",
+            "slack":":cyclone:",
+            "twitter":":cyclone:"
+          },
+          "league":"NHL",
+          "location":"Carolina",
+          "name":"Carolina",
+          "nickname":"Hurricanes",
+          "slug":"nhl-car",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"CHI",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bird:",
+            "slack":":bird:",
+            "twitter":":bird:"
+          },
+          "league":"NHL",
+          "location":"Chicago",
+          "name":"Chicago",
+          "nickname":"Blackhawks",
+          "slug":"nhl-chi",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"COL",
+          "emoji":{
+            "alternates":[
+              ":snowflake:",
+              ":snow_capped_mountain:"
+            ],
+            "default":":snowflake:",
+            "slack":":snow_capped_mountain:",
+            "twitter":":snowflake:"
+          },
+          "league":"NHL",
+          "location":"Colorado",
+          "name":"Colorado",
+          "nickname":"Avalanche",
+          "slug":"nhl-col",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"CLB",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":bee:",
+            "slack":":bee:",
+            "twitter":":honeybee:"
+          },
+          "league":"NHL",
+          "location":"Columbus",
+          "name":"Columbus",
+          "nickname":"Blue Jackets",
+          "slug":"nhl-clb",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"DAL",
+          "emoji":{
+            "alternates":[
+              ":stars:"
+            ],
+            "default":":star:",
+            "slack":":star:",
+            "twitter":":star:"
+          },
+          "league":"NHL",
+          "location":"Dallas",
+          "name":"Dallas",
+          "nickname":"Stars",
+          "slug":"nhl-dal",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"DET",
+          "emoji":{
+            "alternates":[
+              ":red_car:"
+            ],
+            "default":":octopus:",
+            "slack":":octopus:",
+            "twitter":":octopus:"
+          },
+          "league":"NHL",
+          "location":"Detroit",
+          "name":"Detroit",
+          "nickname":"Red Wings",
+          "slug":"nhl-det",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"EDM",
+          "emoji":{
+            "alternates":[
+              ":fuelpump:",
+              ":oil:",
+              ":oil_drum:"
+            ],
+            "default":":fuelpump:",
+            "slack":":oil_drum:",
+            "twitter":":fuelpump:"
+          },
+          "league":"NHL",
+          "location":"Edmonton",
+          "name":"Edmonton",
+          "nickname":"Oilers",
+          "slug":"nhl-edm",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"FLA",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":sunrise:",
+            "slack":":sunrise:",
+            "twitter":":sunrise:"
+          },
+          "league":"NHL",
+          "location":"Florida",
+          "name":"Florida",
+          "nickname":"Panthers",
+          "slug":"nhl-fla",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"LA",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":crown:",
+            "slack":":crown:",
+            "twitter":":crown:"
+          },
+          "league":"NHL",
+          "location":"Los Angeles",
+          "name":"Los Angeles",
+          "nickname":"Kings",
+          "slug":"nhl-la",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"MIN",
+          "emoji":{
+            "alternates":[
+              ":wolf:"
+            ],
+            "default":":evergreen_tree:",
+            "slack":":evergreen_tree:",
+            "twitter":":evergreen_tree:"
+          },
+          "league":"NHL",
+          "location":"Minnesota",
+          "name":"Minnesota",
+          "nickname":"Wild",
+          "slug":"nhl-min",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"MON",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":copyright:",
+            "slack":":flag-ca:",
+            "twitter":":copyright:"
+          },
+          "league":"NHL",
+          "location":"Montreal",
+          "name":"Montreal",
+          "nickname":"Canadiens",
+          "slug":"nhl-mon",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"NYI",
+          "emoji":{
+            "alternates":[
+              ":circus_tent:",
+              ":desert_island:"
+            ],
+            "default":":circus_tent:",
+            "slack":":desert_island:",
+            "twitter":":circus_tent:"
+          },
+          "league":"NHL",
+          "location":"New York",
+          "name":"NY Islanders",
+          "nickname":"Islanders",
+          "slug":"nhl-nyi",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"NYR",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":statue_of_liberty:",
+            "slack":":statue_of_liberty:",
+            "twitter":":statue_of_liberty:"
+          },
+          "league":"NHL",
+          "location":"New York",
+          "name":"NY Rangers",
+          "nickname":"Rangers",
+          "slug":"nhl-nyr",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"NAS",
+          "emoji":{
+            "alternates":[
+              ":guitar:"
+            ],
+            "default":":leopard:",
+            "slack":":leopard:",
+            "twitter":":leopard:"
+          },
+          "league":"NHL",
+          "location":"Nashville",
+          "name":"Nashville",
+          "nickname":"Predators",
+          "slug":"nhl-nas",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"NJ",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":smiling_imp:",
+            "slack":":smiling_imp:",
+            "twitter":":smiling_imp:"
+          },
+          "league":"NHL",
+          "location":"New Jersey",
+          "name":"New Jersey",
+          "nickname":"Devils",
+          "slug":"nhl-nj",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"OTT",
+          "emoji":{
+            "alternates":[
+              ":beginner:",
+              ":shield:"
+            ],
+            "default":":beginner:",
+            "slack":":shield:",
+            "twitter":":beginner:"
+          },
+          "league":"NHL",
+          "location":"Ottawa",
+          "name":"Ottawa",
+          "nickname":"Senators",
+          "slug":"nhl-ott",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"PHI",
+          "emoji":{
+            "alternates":[
+              ":small_airplane:"
+            ],
+            "default":":orange_book:",
+            "slack":":orange_book:",
+            "twitter":":orange_book:"
+          },
+          "league":"NHL",
+          "location":"Philadelphia",
+          "name":"Philadelphia",
+          "nickname":"Flyers",
+          "slug":"nhl-phi",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"PIT",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":penguin:",
+            "slack":":penguin:",
+            "twitter":":penguin:"
+          },
+          "league":"NHL",
+          "location":"Pittsburgh",
+          "name":"Pittsburgh",
+          "nickname":"Penguins",
+          "slug":"nhl-pit",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"SJ",
+          "emoji":{
+            "alternates":[
+              ":computer:",
+              ":shark:"
+            ],
+            "default":":fish:",
+            "slack":":fish:",
+            "twitter":":fish:"
+          },
+          "league":"NHL",
+          "location":"San Jose",
+          "name":"San Jose",
+          "nickname":"Sharks",
+          "slug":"nhl-sj",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"STL",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":saxophone:",
+            "slack":":saxophone:",
+            "twitter":":saxophone:"
+          },
+          "league":"NHL",
+          "location":"St. Louis",
+          "name":"St. Louis",
+          "nickname":"Blues",
+          "slug":"nhl-stl",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"TB",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":zap:",
+            "slack":":zap:",
+            "twitter":":zap:"
+          },
+          "league":"NHL",
+          "location":"Tampa Bay",
+          "name":"Tampa Bay",
+          "nickname":"Lightning",
+          "slug":"nhl-tb",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"TOR",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":maple_leaf:",
+            "slack":":maple_leaf:",
+            "twitter":":maple_leaf:"
+          },
+          "league":"NHL",
+          "location":"Toronto",
+          "name":"Toronto",
+          "nickname":"Maple Leafs",
+          "slug":"nhl-tor",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"VAN",
+          "emoji":{
+            "alternates":[
+              ":mountain:",
+              ":snowboarder:",
+              ":ski:",
+              ":skier:"
+            ],
+            "default":":snowboarder:",
+            "slack":":skier:",
+            "twitter":":snowboarder:"
+          },
+          "league":"NHL",
+          "location":"Vancouver",
+          "name":"Vancouver",
+          "nickname":"Canucks",
+          "slug":"nhl-van",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"WAS",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":capital_abcd:",
+            "slack":":capital_abcd:",
+            "twitter":":capital_abcd:"
+          },
+          "league":"NHL",
+          "location":"Washington",
+          "name":"Washington",
+          "nickname":"Capitals",
+          "slug":"nhl-was",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
+          }
+        },
+        {
+          "abbreviation":"WIN",
+          "emoji":{
+            "alternates":[
+
+            ],
+            "default":":airplane:",
+            "slack":":airplane:",
+            "twitter":":airplane:"
+          },
+          "league":"NHL",
+          "location":"Winnipeg",
+          "name":"Winnipeg",
+          "nickname":"Jets",
+          "slug":"nhl-win",
+          "sport":{
+            "emoji":":ice_hockey_stick_and_puck",
+            "name":"hockey"
           }
         }
       ]
