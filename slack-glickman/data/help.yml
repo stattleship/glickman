@@ -18,7 +18,7 @@ commands:
     description: Hockey hat tricks
   rotating_light:
     expression: ':rotating_light:'
-    description: Recently scored hockey goals
+    description: Recently scored :ice_hockey_stick_and_puck: goals
   feats:
     expression: ':fire: :basketball:'
     description: Recent hotness for a sport
@@ -48,10 +48,10 @@ commands:
     description: Schedules for a teamoji
   basketballl_scoreboard:
     expression: ':mega: :basketball:'
-    description: Basketball score updates
+    description: :basketball: score updates
   football_scoreboard:
     expression: ':mega: :football:'
-    description: Football score updates
+    description: :football: score updates
   hockey_scoreboard:
     expression: ':mega: :ice_hockey_stick_and_puck:'
     description: Hockey score updates
@@ -69,16 +69,28 @@ commands:
     description: 'Top three leaders for G, A, S, P, PPG'
   slot_machine:
     expression: ':slot_machine:'
-    description: Basketball triple-triple leaders
+    description: :basketball: triple-triple leaders
   hamburger:
     expression: ':hamburger:'
-    description: Basketball double-double leaders
+    description: :basketball: double-double leaders
   doughnut:
     expression: ':doughnut:'
-    description: Hockey shutout leaders
+    description: :ice_hockey_stick_and_puck: shutout leaders
   runner:
     expression: ':runner:'
-    description: Football rushng leaders
+    description: :football: rushing leaders
+  house:
+    expression: ':house:'
+    description: :baseball: home run leaderss
+  cherries:
+    expression: ':cherries:'
+    description: :baseball: doubles leaderss
+  dango:
+    expression: ':dango:'
+    description: :baseball: triples leaderss
+  bowling:
+    expression: ':bowling:'
+    description: :baseball: pitcher strikout leaderss
   playermoji:
     expression: ':curry:, :crown:, or :rose:'
     description: 'Random Stephen Curry, Lebron James or Derrick Rose game log'

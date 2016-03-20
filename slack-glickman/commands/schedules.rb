@@ -54,6 +54,10 @@ module SlackGlickman
         query_params.team_id = team_id
         query_params.on = on
 
+        if sport == 'baseball' then
+          query_params.interval_type = 'preseason'
+        end
+
         if sport == 'football' then
           query_params.interval_type = 'superbowl'
         end
