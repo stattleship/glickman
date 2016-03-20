@@ -1,6 +1,66 @@
 module SlackGlickman
   module Commands
     class StatLeaders < SlackGlickman::Commands::BaseCommand
+      command ':bowling:' do |client, data, _match|
+        query_params = Stattleship::Params::BaseballStatLeadersParams.new
+        query_params.type = 'baseball_pitcher_stat'
+        query_params.stat = 'pitcher_strikeouts'
+        query_params.place = 3
+        query_params.season_id = 'mlb-2015'
+
+        leaders = Stattleship::BaseballStatLeaders.fetch(params: query_params).
+                    first(5).
+                    map(&:to_sentence).
+                    join("\n")
+
+        send_message client, data, ":bowling: :baseball: Most strikeouts! \n #{leaders}"
+      end
+
+      command ':house:' do |client, data, _match|
+        query_params = Stattleship::Params::BaseballStatLeadersParams.new
+        query_params.type = 'baseball_hitter_stat'
+        query_params.stat = 'home_runs'
+        query_params.place = 3
+        query_params.season_id = 'mlb-2015'
+
+        leaders = Stattleship::BaseballStatLeaders.fetch(params: query_params).
+                    first(5).
+                    map(&:to_sentence).
+                    join("\n")
+
+        send_message client, data, ":house: :baseball: Most home runs! \n #{leaders}"
+      end
+
+      command ':cherries:' do |client, data, _match|
+        query_params = Stattleship::Params::BaseballStatLeadersParams.new
+        query_params.type = 'baseball_hitter_stat'
+        query_params.stat = 'doubles'
+        query_params.place = 3
+        query_params.season_id = 'mlb-2015'
+
+        leaders = Stattleship::BaseballStatLeaders.fetch(params: query_params).
+                    first(5).
+                    map(&:to_sentence).
+                    join("\n")
+
+        send_message client, data, ":cherries: :baseball: Most doubles! \n #{leaders}"
+      end
+
+      command ':dango:' do |client, data, _match|
+        query_params = Stattleship::Params::BaseballStatLeadersParams.new
+        query_params.type = 'baseball_hitter_stat'
+        query_params.stat = 'triples'
+        query_params.place = 3
+        query_params.season_id = 'mlb-2015'
+
+        leaders = Stattleship::BaseballStatLeaders.fetch(params: query_params).
+                    first(5).
+                    map(&:to_sentence).
+                    join("\n")
+
+        send_message client, data, ":dango: :baseball: Most triples! \n #{leaders}"
+      end
+
       command ':slot_machine:' do |client, data, _match|
         query_params = Stattleship::Params::BasketballStatLeadersParams.new
         query_params.type = 'basketball_doubles_stat'
