@@ -21,13 +21,13 @@ commands:
     description: 'Recently scored :ice_hockey_stick_and_puck: goals'
   feats:
     expression: ':fire: :basketball:'
-    description: Recent hotness for a sport
+    description: 'Recent hotness for a sport :baseball: :basketball: :football: :ice_hockey_stick_and_puck:'
   game_logs:
     expression: ':basketball: <first name> <last name>'
-    description: Most recent player game log
+    description: 'Most recent player game log for :baseball: :basketball: :football: :ice_hockey_stick_and_puck:'
   game_logs_random:
     expression: ':basketball: :game_die: <first name> <last name>'
-    description: Random player game log
+    description: 'Random player game log for :baseball: :basketball: :football: :ice_hockey_stick_and_puck:'
   maps:
     expression: ':round_pushpin: :four_leaf_clover: :basketball:'
     description: Map of sport team last 10 games
@@ -42,11 +42,14 @@ commands:
     description: Team results as emoji
   schedules:
     expression: ':calendar: :ice_hockey_stick_and_puck:'
-    description: Schedules for a sport
+    description: 'Schedules for a sport :baseball: :basketball: :football: :ice_hockey_stick_and_puck:'
   team_schedules:
     expression: ':calendar: :four_leaf_clover: :basketball:'
     description: Schedules for a teamoji
-  basketballl_scoreboard:
+  baseball_scoreboard:
+    expression: ':mega: :baseball:'
+    description: ':baseball: score updates'
+  basketball_scoreboard:
     expression: ':mega: :basketball:'
     description: ':basketball: score updates'
   football_scoreboard:

@@ -2,7 +2,7 @@ module SlackGlickman
   module Commands
     class GameLogs < SlackGlickman::Commands::BaseCommand
 
-      ['basketball', 'football', 'hockey'].each do |sport|
+      ['basketball', 'football', 'hockey', 'baseball'].each do |sport|
 
         statmoji = if sport == 'hockey'
                      'ice_hockey_stick_and_puck'
@@ -13,6 +13,7 @@ module SlackGlickman
         command ":#{statmoji}: :game_die:" do |client, data, match|
           query_params = const_get("Stattleship::Params::#{sport.capitalize}GameLogsParams").new
           player_name = match['expression'].strip.
+                                            gsub('mlb-', '').
                                             gsub('nba-', '').
                                             gsub('nfl-', '').
                                             gsub('nhl-', '').
@@ -22,6 +23,8 @@ module SlackGlickman
 
 
           player_slug = case sport
+                        when 'baseball'
+                          "mlb-#{player_name}"
                         when 'basketball'
                           "nba-#{player_name}"
                         when 'football'
@@ -50,7 +53,7 @@ module SlackGlickman
         end
       end
 
-      ['basketball', 'football', 'hockey'].each do |sport|
+      ['basketball', 'football', 'hockey', 'baseball'].each do |sport|
 
         statmoji = if sport == 'hockey'
                      'ice_hockey_stick_and_puck'
@@ -61,6 +64,7 @@ module SlackGlickman
         command ":#{statmoji}:" do |client, data, match|
           query_params = const_get("Stattleship::Params::#{sport.capitalize}GameLogsParams").new
           player_name = match['expression'].strip.
+                                            gsub('mlb-', '').
                                             gsub('nba-', '').
                                             gsub('nfl-', '').
                                             gsub('nhl-', '').
@@ -70,6 +74,8 @@ module SlackGlickman
 
 
           player_slug = case sport
+                        when 'baseball'
+                          "mlb-#{player_name}"
                         when 'basketball'
                           "nba-#{player_name}"
                         when 'football'
