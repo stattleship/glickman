@@ -18,7 +18,7 @@ commands:
     description: Hockey hat tricks
   rotating_light:
     expression: ':rotating_light:'
-    description: Recently scored :ice_hockey_stick_and_puck: goals
+    description: 'Recently scored :ice_hockey_stick_and_puck: goals'
   feats:
     expression: ':fire: :basketball:'
     description: Recent hotness for a sport
