@@ -37,6 +37,10 @@ module SlackGlickman
 
           query_params.player_id = player_slug
 
+          if statmoji == 'baseball' then
+            query_params.interval_type = 'preseason'
+          end
+
           if statmoji == 'football' then
             query_params.interval_type = 'superbowl'
           end
@@ -87,6 +91,10 @@ module SlackGlickman
                         end
 
           query_params.player_id = player_slug
+
+          if statmoji == 'baseball' then
+            query_params.interval_type = 'preseason'
+          end
 
           if statmoji == 'football' then
             query_params.interval_type = 'superbowl'
