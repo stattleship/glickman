@@ -112,7 +112,7 @@ module SlackGlickman
         end
       end
 
-      command ':panda:' do |client, data, _match|
+      command ':panda_face:' do |client, data, _match|
 
         query_params = Stattleship::Params::BaseballGameLogsParams.new
 
