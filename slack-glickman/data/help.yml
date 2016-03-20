@@ -48,10 +48,10 @@ commands:
     description: Schedules for a teamoji
   basketballl_scoreboard:
     expression: ':mega: :basketball:'
-    description: :basketball: score updates
+    description: ':basketball: score updates'
   football_scoreboard:
     expression: ':mega: :football:'
-    description: :football: score updates
+    description: ':football: score updates'
   hockey_scoreboard:
     expression: ':mega: :ice_hockey_stick_and_puck:'
     description: Hockey score updates
@@ -69,28 +69,28 @@ commands:
     description: 'Top three leaders for G, A, S, P, PPG'
   slot_machine:
     expression: ':slot_machine:'
-    description: :basketball: triple-triple leaders
+    description: ':basketball: triple-triple leaders'
   hamburger:
     expression: ':hamburger:'
-    description: :basketball: double-double leaders
+    description: ':basketball: double-double leaders'
   doughnut:
     expression: ':doughnut:'
-    description: :ice_hockey_stick_and_puck: shutout leaders
+    description: ':ice_hockey_stick_and_puck: shutout leaders'
   runner:
     expression: ':runner:'
-    description: :football: rushing leaders
+    description: ':football: rushing leaders'
   house:
     expression: ':house:'
-    description: :baseball: home run leaderss
+    description: ':baseball: home run leaderss'
   cherries:
     expression: ':cherries:'
-    description: :baseball: doubles leaderss
+    description: ':baseball: doubles leaderss'
   dango:
     expression: ':dango:'
-    description: :baseball: triples leaderss
+    description: ':baseball: triples leaderss'
   bowling:
     expression: ':bowling:'
-    description: :baseball: pitcher strikout leaderss
+    description: ':baseball: pitcher strikout leaderss'
   playermoji:
     expression: ':curry:, :crown:, or :rose:'
     description: 'Random Stephen Curry, Lebron James or Derrick Rose game log'
