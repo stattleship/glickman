@@ -112,6 +112,24 @@ module SlackGlickman
         end
       end
 
+      command ':panda:' do |client, data, _match|
+
+        query_params = Stattleship::Params::BaseballGameLogsParams.new
+
+        query_params.player_id = 'mlb-pablo-sandoval'
+        query_params.season_id = 'mlb-2015'
+
+        game_logs = Stattleship::BaseballGameLogs.fetch(params: query_params)
+
+        if game_logs.size > 0
+          msg = game_logs.sample.to_sentence
+          send_message client, data, ":tom: #{msg}"
+        else
+          msg = 'Nothing to see here'
+          send_error client, data, ":tom: #{msg}"
+        end
+      end
+
       command ':tom:' do |client, data, _match|
 
         query_params = Stattleship::Params::FootballGameLogsParams.new
@@ -147,4 +165,5 @@ module SlackGlickman
       end
     end
   end
+
 end
