@@ -123,10 +123,10 @@ module SlackGlickman
 
         if game_logs.size > 0
           msg = game_logs.sample.to_sentence
-          send_message client, data, ":tom: #{msg}"
+          send_message client, data, "Kung Fu :panda_face: #{msg}"
         else
           msg = 'Nothing to see here'
-          send_error client, data, ":tom: #{msg}"
+          send_error client, data, "Fung Fu :panda_face: #{msg}"
         end
       end
 
