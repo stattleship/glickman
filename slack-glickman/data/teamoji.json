@@ -431,10 +431,11 @@
           "abbreviation":"PIT",
           "emoji":{
             "alternates":[
+              ":skull_and_crossbones:",
               ":tomato:"
             ],
             "default":":tomato:",
-            "slack":":tomato:",
+            "slack":":skull_and_crossbones:",
             "twitter":":tomato:"
           },
           "league":"MLB",
