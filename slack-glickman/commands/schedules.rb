@@ -7,7 +7,7 @@ module SlackGlickman
         statmoji = sportmoji['emoji']
 
         sportmoji['teams'].each do |team|
-          teamoji = team['emoji']['default']
+          teamoji = team['emoji']['slack']
 
           command ":calendar: #{teamoji} #{statmoji}" do |client, data, _match|
             games = schedule(sport: sport,

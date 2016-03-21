@@ -13,7 +13,7 @@ module SlackGlickman
         sportmoji['teams'].each do |team|
           sport = sportmoji['sport']
           statmoji = sportmoji['emoji']
-          teamoji = team['emoji']['default']
+          teamoji = team['emoji']['slakc']
 
           command ":lower_left_paintbrush: #{teamoji} #{statmoji}" do |client, data, _match|
             requested_team = teams(sport: sport).detect { |t| t.slug == team['slug'] }

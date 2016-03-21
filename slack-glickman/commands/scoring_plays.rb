@@ -3,7 +3,7 @@ module SlackGlickman
     class ScoringPlays < SlackGlickman::Commands::BaseCommand
       SlackGlickman::App.instance.teamoji.each do |sport|
         sport['teams'].each do |team|
-          command ":tada: #{team['emoji']['default']} #{sport['emoji']}" do |client, data, _match|
+          command ":tada: #{team['emoji']['slack']} #{sport['emoji']}" do |client, data, _match|
             send_message client, data, penalties_for_team(team_id: team['slug'],
                                                        sport: sport['sport'])
           end

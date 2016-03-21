@@ -68,7 +68,7 @@ module SlackGlickman
         sportmoji['teams'].each do |team|
           sport = sportmoji['sport']
           statmoji = sportmoji['emoji']
-          teamoji = team['emoji']['default']
+          teamoji = team['emoji']['slack']
 
           command ":comet: #{teamoji} #{statmoji}" do |client, data, _match|
             streak_sentences = []

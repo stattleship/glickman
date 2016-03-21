@@ -5,7 +5,7 @@ module SlackGlickman
         sportmoji['teams'].each do |team|
           sport = sportmoji['sport']
           statmoji = sportmoji['emoji']
-          teamoji = team['emoji']['default']
+          teamoji = team['emoji']['slack']
 
           command ":round_pushpin: #{teamoji} #{statmoji}" do |client, data, _match|
             poly = MapPolygon.new(color: '0xDC143C', geodesic: true)

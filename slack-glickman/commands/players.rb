@@ -3,7 +3,7 @@ module SlackGlickman
     class Players < SlackGlickman::Commands::BaseCommand
       SlackGlickman::App.instance.teamoji.each do |sport|
         sport['teams'].each do |team|
-          command ":shirt: #{team['emoji']['default']} #{sport['emoji']}" do |client, data, _match|
+          command ":shirt: #{team['emoji']['slack']} #{sport['emoji']}" do |client, data, _match|
             send_message client, data, player_for_team(team_id: team['slug'],
                                                        sport: sport['sport'])
           end

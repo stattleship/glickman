@@ -6,7 +6,7 @@ module SlackGlickman
         statmoji = sportmoji['emoji']
 
         sportmoji['teams'].each do |team|
-          teamoji = team['emoji']['default']
+          teamoji = team['emoji']['slack']
 
           command ":no_mouth: #{teamoji} #{statmoji}" do |client, data, _match|
             game_logs = team_game_logs(sport: sport,

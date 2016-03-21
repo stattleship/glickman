@@ -12,9 +12,9 @@ module SlackGlickman
 
       SlackGlickman::App.instance.teamoji.each do |sport|
         sport['teams'].each do |team|
-          command ":face_with_head_bandage: #{team['emoji']['default']} #{sport['emoji']}" do |client, data, _match|
+          command ":face_with_head_bandage: #{team['emoji']['slack']} #{sport['emoji']}" do |client, data, _match|
             msg = fetch_injury(sport: sport['sport'], team_id: team['slug'])
-            send_message client, data, ":face_with_head_bandage: #{team['emoji']['default']} #{sport['emoji']} #{msg}"
+            send_message client, data, ":face_with_head_bandage: #{team['emoji']['slack']} #{sport['emoji']} #{msg}"
           end
         end
       end

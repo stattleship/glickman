@@ -9,9 +9,8 @@ module SlackGlickman
         send_gif(client, data, 'brett favre')
       end
 
-      command ":game_die:" do |client, data, _match|
-        # TODO - totally random
-        send_message client, data, ":game_die:"
+      command ":eyeglasses:" do |client, data, _match|
+        send_gif(client, data, 'major league wild thing')
       end
 
       command ":unicorn_face:" do |client, data, _match|
