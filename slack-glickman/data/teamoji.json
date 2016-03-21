@@ -512,11 +512,12 @@
           "abbreviation":"STL",
           "emoji":{
             "alternates":[
+              ":black_joker:",
               ":saxophone:"
             ],
-            "default":":saxophone:",
-            "slack":":saxophone:",
-            "twitter":":saxophone:"
+            "default":":black_joker:",
+            "slack":":black_joker:",
+            "twitter":":black_joker:"
           },
           "league":"MLB",
           "location":"St. Louis",
