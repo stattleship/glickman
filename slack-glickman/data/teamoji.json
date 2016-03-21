@@ -432,11 +432,11 @@
           "emoji":{
             "alternates":[
               ":skull_and_crossbones:",
-              ":tomato:"
+              ":skull:"
             ],
-            "default":":tomato:",
+            "default":":skull:",
             "slack":":skull_and_crossbones:",
-            "twitter":":tomato:"
+            "twitter":":skull:"
           },
           "league":"MLB",
           "location":"Pittsburgh",
