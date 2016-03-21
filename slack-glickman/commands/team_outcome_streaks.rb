@@ -1,12 +1,8 @@
 module SlackGlickman
   module Commands
     class TeamOutcomeStreaks < SlackGlickman::Commands::BaseCommand
-      ['basketball', 'football', 'hockey'].each do |sport|
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
         command ":comet: :#{statmoji}:" do |client, data, _match|
           streak_sentences = []
 
@@ -26,12 +22,8 @@ module SlackGlickman
         end
       end
 
-      ['basketball', 'football', 'hockey'].each do |sport|
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
         command ":comet: :joy: :#{statmoji}:" do |client, data, _match|
           streak_sentences = []
 
@@ -51,12 +43,8 @@ module SlackGlickman
         end
       end
 
-      ['basketball', 'football', 'hockey'].each do |sport|
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
         command ":comet: :cry: :#{statmoji}:" do |client, data, _match|
           streak_sentences = []
 
@@ -117,10 +105,6 @@ module SlackGlickman
         query_params.current = current
         query_params.outcome = outcome
         query_params.team_id = team_id
-
-        if sport == 'football' then
-          query_params.interval_type = 'superbowl'
-        end
 
         const_get("Stattleship::#{sport.capitalize}TeamOutcomeStreaks").
                   fetch(params: query_params)

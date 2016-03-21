@@ -13,21 +13,13 @@ module SlackGlickman
         send_message client, data, ":tophat: Hat Tricks! \n#{feats}"
       end
 
-      ['basketball', 'football', 'hockey', 'baseball'].each do |sport|
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
 
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
         command ":fire: :#{statmoji}:" do |client, data, _match|
           query_params = const_get("Stattleship::Params::#{sport.capitalize}FeatsParams").new
           query_params.level_up = 3
           query_params.since = 'yesterday'
-
-          if statmoji == 'football' then
-            query_params.interval_type = 'wildcard'
-          end
 
           feats = const_get("Stattleship::#{sport.capitalize}Feats").
                     fetch(params: query_params).

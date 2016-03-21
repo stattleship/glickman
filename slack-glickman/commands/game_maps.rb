@@ -39,10 +39,6 @@ module SlackGlickman
         query_params.team_id = team_id
         query_params.since = '3 months ago'
 
-        if sport == 'football' then
-          query_params.interval_type = 'superbowl'
-        end
-
         const_get("Stattleship::#{sport.capitalize}Games").
                   fetch(params: query_params).
                   reverse.

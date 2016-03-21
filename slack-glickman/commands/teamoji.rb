@@ -2,12 +2,8 @@ module SlackGlickman
   module Commands
     class Teamoji < SlackGlickman::Commands::BaseCommand
 
-      ['basketball', 'football', 'hockey', 'baseball'].each do |sport|
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
 
         command "teamoji :#{statmoji}:" do |client, data, _match|
           teamojis = []

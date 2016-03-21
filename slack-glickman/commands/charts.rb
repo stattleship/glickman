@@ -1,13 +1,8 @@
 module SlackGlickman
   module Commands
     class Charts < SlackGlickman::Commands::BaseCommand
-      ['basketball', 'football', 'hockey'].each do |sport|
-
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
 
         command ":chart_with_upwards_trend: :#{statmoji}:" do |client, data, match|
           return

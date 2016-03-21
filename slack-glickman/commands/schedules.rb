@@ -27,12 +27,9 @@ module SlackGlickman
         end
       end
 
-      ['basketball', 'football', 'hockey', 'baseball'].each do |sport|
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
+
 
         command ":calendar: :#{statmoji}:" do |client, data, _match|
 
@@ -53,14 +50,6 @@ module SlackGlickman
         query_params.status = status
         query_params.team_id = team_id
         query_params.on = on
-
-        if sport == 'baseball' then
-          query_params.interval_type = 'preseason'
-        end
-
-        if sport == 'football' then
-          query_params.interval_type = 'superbowl'
-        end
 
         const_get("Stattleship::#{sport.capitalize}Games").
                   fetch(params: query_params).

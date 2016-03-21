@@ -1,14 +1,8 @@
 module SlackGlickman
   module Commands
     class GameLogs < SlackGlickman::Commands::BaseCommand
-
-      ['basketball', 'football', 'hockey', 'baseball'].each do |sport|
-
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
 
         command ":#{statmoji}: :game_die:" do |client, data, match|
           query_params = const_get("Stattleship::Params::#{sport.capitalize}GameLogsParams").new
@@ -37,14 +31,6 @@ module SlackGlickman
 
           query_params.player_id = player_slug
 
-          if statmoji == 'baseball' then
-            query_params.interval_type = 'preseason'
-          end
-
-          if statmoji == 'football' then
-            query_params.interval_type = 'superbowl'
-          end
-
           game_logs = const_get("Stattleship::#{sport.capitalize}GameLogs").fetch(params: query_params)
 
           if game_logs.size > 0
@@ -57,13 +43,8 @@ module SlackGlickman
         end
       end
 
-      ['basketball', 'football', 'hockey', 'baseball'].each do |sport|
-
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
 
         command ":#{statmoji}:" do |client, data, match|
           query_params = const_get("Stattleship::Params::#{sport.capitalize}GameLogsParams").new
@@ -91,14 +72,6 @@ module SlackGlickman
                         end
 
           query_params.player_id = player_slug
-
-          if statmoji == 'baseball' then
-            query_params.interval_type = 'preseason'
-          end
-
-          if statmoji == 'football' then
-            query_params.interval_type = 'superbowl'
-          end
 
           game_logs = const_get("Stattleship::#{sport.capitalize}GameLogs").fetch(params: query_params)
 

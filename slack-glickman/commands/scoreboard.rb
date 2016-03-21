@@ -1,25 +1,12 @@
 module SlackGlickman
   module Commands
     class Scoreboard < SlackGlickman::Commands::BaseCommand
-      ['basketball', 'football', 'hockey', 'baseball'].each do |sport|
-
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
 
         command ":mega: :#{statmoji}:" do |client, data, _match|
           query_params = const_get("Stattleship::Params::#{sport.capitalize}GamesParams").new
           query_params.status = 'in_progress'
-
-          if statmoji == 'football' then
-            query_params.interval_type = 'superbowl'
-          end
-
-          if statmoji == 'baseball' then
-            query_params.interval_type = 'preseason'
-          end
 
           games = const_get("Stattleship::#{sport.capitalize}Games").fetch(params: query_params)
 

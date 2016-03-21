@@ -2,6 +2,8 @@ module SlackGlickman
   class App < SlackRubyBot::App
     attr_reader :analytics, :cache
 
+    SPORTS = ['basketball', 'football', 'hockey', 'baseball'].freeze
+
     def initialize(options = {})
       super(options)
 
@@ -15,6 +17,14 @@ module SlackGlickman
 
     def playermoji
       cache.playermoji
+    end
+
+    def statmoji_for_sport(sport:)
+      if sport == 'hockey'
+       'ice_hockey_stick_and_puck'
+      else
+        sport
+      end
     end
 
     def teamoji

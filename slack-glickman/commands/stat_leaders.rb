@@ -118,13 +118,8 @@ module SlackGlickman
         send_message client, data, ":runner: Most rushing yards! \n #{leaders}"
       end
 
-      ['basketball', 'football', 'hockey'].each do |sport|
-
-        statmoji = if sport == 'hockey'
-                     'ice_hockey_stick_and_puck'
-                    else
-                      sport
-                    end
+      SlackGlickman::App::SPORTS.each do |sport|
+        statmoji = SlackGlickman::App.instance.statmoji_for_sport(sport: sport)
 
         command ":top: :#{statmoji}:" do |client, data, match|
 
