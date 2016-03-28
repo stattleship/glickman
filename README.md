@@ -45,6 +45,7 @@ Glickman knows a good deal about sports.
 
 ## Complete List
 
+```
 :lower_left_paintbrush: :basketball: - Colors for each sportmoji team
 :lower_left_paintbrush: :cow: :football: - Colors a specific sportmoji team
 :face_with_head_bandage: :basketball: - Random injury report for a sportmoji
@@ -87,6 +88,92 @@ teamoji :basketball: - List team teamojis per sport
 :comet: :joy: :basketball: - Current winning streaks for a sport
 :comet: :cry: :basketball: - Current losing streaks for a sport
 :movie_camera: :rocket: :basketball: - Random GIF for a team and sport using teamojis
+```
+
+:lower_left_paintbrush: :basketball: - Colors for each sportmoji team
+
+:lower_left_paintbrush: :cow: :football: - Colors a specific sportmoji team
+
+:face_with_head_bandage: :basketball: - Random injury report for a sportmoji
+
+:face_with_head_bandage: :bear: :ice_hockey_stick_and_puck: - Random injury report for a teamoji
+
+:tophat: - Hockey hat tricks
+
+:rotating_light: - Recently scored :ice_hockey_stick_and_puck: goals
+
+:fire: :basketball: - Recent hotness for a sport :baseball: :basketball: :football: :ice_hockey_stick_and_puck:
+
+:basketball: <first name> <last name> - Most recent player game log for :baseball: :basketball: :football: :ice_hockey_stick_and_puck:
+
+:basketball: :game_die: <first name> <last name> - Random player game log for :baseball: :basketball: :football: :ice_hockey_stick_and_puck:
+
+:round_pushpin: :four_leaf_clover: :basketball: - Map of sport team last 10 games
+
+:package: :wolf: :ice_hockey_stick_and_puck: - Hockey penalties for a teamoji
+
+:shirt: :skull_and_crossbones: :football: - Player info
+
+:no_mouth: :bridge_at_night: :basketball: - Team results as emoji
+
+:calendar: :ice_hockey_stick_and_puck: - Schedules for a sport :baseball: :basketball: :football: :ice_hockey_stick_and_puck:
+
+:calendar: :four_leaf_clover: :basketball: - Schedules for a teamoji
+
+:mega: :baseball: - :baseball: score updates
+
+:mega: :basketball: - :basketball: score updates
+
+:mega: :football: - :football: score updates
+
+:mega: :ice_hockey_stick_and_puck: - Hockey score updates
+
+:tada: :crown: :ice_hockey_stick_and_puck: - Recent hockey goals scored for teamoji
+
+:top: :basketball: FT - Top three leaders for 3P, FG, A, P, FT
+
+:top: :football: TD - Top three leaders for TD
+
+:top: :ice_hockey_stick_and_puck: G - Top three leaders for G, A, S, P, PPG
+
+:slot_machine: - :basketball: triple-triple leaders
+
+:hamburger: - :basketball: double-double leaders
+
+:doughnut: - :ice_hockey_stick_and_puck: shutout leaders
+
+:runner: - :football: rushing leaders
+
+:house: - :baseball: home run leaderss
+
+:cherries: - :baseball: doubles leaderss
+
+:dango: - :baseball: triples leaderss
+
+:bowling: - :baseball: pitcher strikout leaderss
+
+:curry:, :crown:, or :rose: - Random Stephen Curry, Lebron James or Derrick Rose game log
+
+teamoji :basketball: - List team teamojis per sport
+
+:100: :calendar: :basketball: - Best :basketball: player performances for yesterday
+
+:100:: :basketball: - Best :basketball: player performances on the season
+
+:rain_cloud: - Best :basketball: shooting performances
+
+:thunder_cloud_and_rain: - Best :basketball: three point shooting performances
+
+:comet: :four_leaf_clover: :basketball: or :comet: :bear: :ice_hockey_stick_and_puck: - Current win/loss streak for a team
+
+:comet: :basketball: or :comet: :ice_hockey_stick_and_puck: - Current win/loss streak for a sport
+
+:comet: :joy: :basketball: - Current winning streaks for a sport
+
+:comet: :cry: :basketball: - Current losing streaks for a sport
+
+:movie_camera: :rocket: :basketball: - Random GIF for a team and sport using teamojis
+
 
 
 ## Some Highlights
