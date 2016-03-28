@@ -84,16 +84,16 @@ commands:
     description: ':football: rushing leaders'
   house:
     expression: ':house:'
-    description: ':baseball: home run leaderss'
+    description: ':baseball: home run leaders'
   cherries:
     expression: ':cherries:'
-    description: ':baseball: doubles leaderss'
+    description: ':baseball: doubles leaders'
   dango:
     expression: ':dango:'
-    description: ':baseball: triples leaderss'
+    description: ':baseball: triples leaders'
   bowling:
     expression: ':bowling:'
-    description: ':baseball: pitcher strikout leaderss'
+    description: ':baseball: pitcher strikout leaders'
   playermoji:
     expression: ':curry:, :crown:, or :rose:'
     description: 'Random Stephen Curry, Lebron James or Derrick Rose game log'

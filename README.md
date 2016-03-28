@@ -73,10 +73,10 @@ Glickman knows a good deal about sports.
 :hamburger: - :basketball: double-double leaders
 :doughnut: - :ice_hockey_stick_and_puck: shutout leaders
 :runner: - :football: rushing leaders
-:house: - :baseball: home run leaderss
-:cherries: - :baseball: doubles leaderss
-:dango: - :baseball: triples leaderss
-:bowling: - :baseball: pitcher strikout leaderss
+:house: - :baseball: home run leaders
+:cherries: - :baseball: doubles leaders
+:dango: - :baseball: triples leaders
+:bowling: - :baseball: pitcher strikout leaders
 :curry:, :crown:, or :rose: - Random Stephen Curry, Lebron James or Derrick Rose game log
 teamoji :basketball: - List team teamojis per sport
 :100: :calendar: :basketball: - Best :basketball: player performances for yesterday
@@ -144,13 +144,13 @@ teamoji :basketball: - List team teamojis per sport
 
 :runner: - :football: rushing leaders
 
-:house: - :baseball: home run leaderss
+:house: - :baseball: home run leaders
 
-:cherries: - :baseball: doubles leaderss
+:cherries: - :baseball: doubles leaders
 
-:dango: - :baseball: triples leaderss
+:dango: - :baseball: triples leaders
 
-:bowling: - :baseball: pitcher strikout leaderss
+:bowling: - :baseball: pitcher strikout leaders
 
 :curry:, :crown:, or :rose: - Random Stephen Curry, Lebron James or Derrick Rose game log
 
