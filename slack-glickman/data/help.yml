@@ -100,6 +100,12 @@ commands:
   teamoji:
     expression: 'teamoji :basketball:'
     description: List team teamojis per sport
+  basketball_daily_player_game_rankings:
+    expression: ':100: :calendar: :basketball:'
+    description: 'Best :basketball: player performances for yesterday'
+  basketball_season_player_game_rankings:
+    expression: ':100: :basketball:'
+    description: 'Best :basketball: player performances on the season'
   rain_cloud:
     expression: ':rain_cloud:'
     description: 'Best :basketball: shooting performances'

@@ -6,9 +6,9 @@ GIT
 
 GIT
   remote: https://github.com/stattleship/stattleship-ruby.git
-  revision: 9e1466a4e9ab3466400791638b92fc595d4c5267
+  revision: 335df236b077d3895cd5eb32047226487c75dd52
   specs:
-    stattleship-ruby (0.1.6)
+    stattleship-ruby (0.1.7)
       addressable (~> 2.3, <= 2.3.8)
       dotenv (~> 2.0, >= 2.0.2)
       link_header (~> 0.0.8)
@@ -39,7 +39,7 @@ GEM
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.2.5)
-    dotenv (2.1.0)
+    dotenv (2.1.1)
     equalizer (0.0.11)
     eventmachine (1.0.9.1)
     faraday (0.9.2)
@@ -152,7 +152,7 @@ DEPENDENCIES
   rspec
   sinatra
   slack-ruby-bot
-  stattleship-ruby (= 0.1.6)!
+  stattleship-ruby (= 0.1.7)!
 
 BUNDLED WITH
    1.11.2
