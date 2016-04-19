@@ -20,6 +20,8 @@ module SlackGlickman
       end
 
       def self.fetch_injury(sport: 'basketball', team_id: nil)
+        msg = 'No recent injuries to report'
+
         query_params = const_get("Stattleship::Params::#{sport.capitalize}InjuriesParams").new
 
         if team_id
@@ -28,7 +30,17 @@ module SlackGlickman
 
         injuries = const_get("Stattleship::#{sport.capitalize}Injuries").fetch(params: query_params)
 
-        msg = injuries.sample.note
+        if injuries && injuries.count > 0
+
+          recent_injuries = injuries.select { |injury| injury.status_updated_at > Date.today - 2 }
+
+          if recent_injuries && recent_injuries.count > 0
+            injury = recent_injuries.sample
+            msg = "#{injury.note} (#{injury.status_updated_at.to_date.to_s})"
+          end
+        end
+
+        msg
       end
     end
   end
