@@ -113,11 +113,11 @@ commands:
     expression: ':thunder_cloud_and_rain:'
     description: 'Best :basketball: three point shooting performances'
   team_streaks:
-    expression: ':comet: :four_leaf_clover: :basketball: or :comet: :bear: :ice_hockey_stick_and_puck:' or :comet: :elephant: :baseball:'
-    description: Current win/loss streak for a team
+    expression: ":comet: :four_leaf_clover: :basketball: or :comet: :bear: :ice_hockey_stick_and_puck: or :comet: :elephant: :baseball:"
+    description: 'Current win/loss streak for a team'
   sport_streaks:
-    expression: ':comet: :basketball: or :comet: :ice_hockey_stick_and_puck:' or :comet: :baseball:'
-    description: Current win/loss streak for a sport
+    expression: ":comet: :basketball: or :comet: :ice_hockey_stick_and_puck: or :comet: :baseball:"
+    description: 'Current win/loss streak for a sport'
   sport_winning_streaks:
     expression: ':comet: :joy: :basketball:'
     description: Current winning streaks for a sport
