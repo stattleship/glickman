@@ -16,7 +16,7 @@ module SlackGlickman
 
             game_log_mojis = game_logs.map { |game_log| resultmoji(game_log: game_log) }
 
-            results = game_logs.map { |game_log| "#{game_log.game.score} #{game_log.team_outcome.gsub('_', ' ')} vs #{game_log.opponent.nickname}" }
+            results = game_logs.map { |game_log| "#{game_log.game.score} #{game_log.team_outcome.gsub('_', ' ')} vs #{game_log.opponent.nickname} #{game_log.game.on}" }
 
             if game_log_mojis == []
               send_message client, data, ":no_mouth: No #{teamoji} #{statmoji} results."
@@ -38,8 +38,7 @@ module SlackGlickman
 
         const_get("Stattleship::#{sport.capitalize}TeamGameLogs").
           fetch(params: query_params).
-          first(count).
-          reverse
+          last(count)
       end
 
       def self.resultmoji(game_log:)
