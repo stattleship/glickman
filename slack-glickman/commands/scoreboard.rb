@@ -32,9 +32,9 @@ module SlackGlickman
           if game.home_team_score == game.away_team_score
             "It's tied in #{game.city}."
           elsif game.home_team_score > game.away_team_score
-            "#{game.home_team_name} is up in #{game.city} by #{game.home_team_score - game.away_team_score}."
+            "#{game.home_team_name} up in #{game.city} by #{game.home_team_score - game.away_team_score}."
           else
-            "#{game.away_team_name} is up in #{game.city} by #{game.away_team_score - game.home_team_score}."
+            "#{game.away_team_name} up in #{game.city} by #{game.away_team_score - game.home_team_score}."
           end
         end
 

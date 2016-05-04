@@ -4,7 +4,7 @@ module SlackGlickman
       command ":100: :calendar: :basketball:" do |client, data, _match|
         on = Date.yesterday.to_s
 
-        performance_rankings = rankings(ranking: 'basketball_daily_player_performance_ranking', on: on)
+        performance_rankings = rankings(ranking: 'basketball_daily_player_performance_ranking', on: 'yesterday')
 
         if performance_rankings
           performances = performance_rankings.map(&:to_sentence).join("\n")
