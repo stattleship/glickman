@@ -16,7 +16,7 @@ module SlackGlickman
         query_params.since = '1 week ago'
 
         scoring_plays = const_get("Stattleship::#{sport.capitalize}ScoringPlays").fetch(params: query_params).
-                          sample(5)
+                          take(5)
 
         msg = scoring_plays.map(&:to_sentence).join("\n")
 
