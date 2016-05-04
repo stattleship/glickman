@@ -38,7 +38,9 @@ module SlackGlickman
 
         const_get("Stattleship::#{sport.capitalize}TeamGameLogs").
           fetch(params: query_params).
-          last(count)
+          sort_by { |g| g.game.started_at }.
+          last(count).
+          reverse
       end
 
       def self.resultmoji(game_log:)

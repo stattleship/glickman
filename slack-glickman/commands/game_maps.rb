@@ -16,7 +16,7 @@ module SlackGlickman
                     GoogleStaticMap.new
                   end
 
-            schedule(sport: sport, team_id: team['slug']).each do |game|
+            schedule(sport: sport, team_id: team['slug'], status: 'upcoming').each do |game|
               location = MapLocation.new(latitude: game.latitude, longitude: game.longitude)
               poly.points << location
               map.markers << MapMarker.new(color: "0x#{game.home_team.color}",
@@ -37,12 +37,17 @@ module SlackGlickman
         query_params = const_get("Stattleship::Params::#{sport.capitalize}GamesParams").new
         query_params.status = status
         query_params.team_id = team_id
-        query_params.since = '3 months ago'
+
+        if sport == 'football'
+          query_params.since = '3 months ago'
+        else
+          query_params.since = '2 weeks ago'
+        end
 
         const_get("Stattleship::#{sport.capitalize}Games").
                   fetch(params: query_params).
                   reverse.
-                  last(count)
+                  take(count)
       end
     end
   end
