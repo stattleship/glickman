@@ -20,7 +20,7 @@ See: https://github.com/dblock/slack-ruby-bot/blob/master/TUTORIAL.md
 
 After bundling and setting up your `.env` file the the API keys, you should be able to run `foreman start` to get the bot up and running.
 
-Note: current uses a pre-release version the the [stattleship-ruby](https://github.com/stattleship/stattleship-ruby) gem.
+Note: uses the [stattleship-ruby](https://github.com/stattleship/stattleship-ruby) gem.
 
 ## Heroku Deploy
 

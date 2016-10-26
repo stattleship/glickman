@@ -26,7 +26,9 @@ module SlackGlickman
           message = text
         end
 
-        super(client, data.channel, message, options.merge(unfurl_links: false, unfurl_media: false))
+        client.say(options.merge(unfurl_links: false,
+                                 unfurl_media: false,
+                                 channel: data.channel, text: message))
       end
 
       def self.send_gif(client, data, options = {})

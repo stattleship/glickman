@@ -1,15 +1,15 @@
 GIT
   remote: https://github.com/dthyresson/googlestaticmap.git
-  revision: e0efcb8a9ffe40c816708f7c4c0dabff624f2153
+  revision: 2c41d0552a51ef5e39de162965e9237bc5bc33f2
   specs:
     googlestaticmap (1.2.2)
 
 GIT
   remote: https://github.com/stattleship/stattleship-ruby.git
-  revision: 9a46dd9e204357f372b849bf4eaf91703ed8e1b7
+  revision: 3e55bafa31d5f24cd14096873027aec8218f12ae
   specs:
-    stattleship-ruby (0.1.17)
-      addressable (~> 2.3, <= 2.3.8)
+    stattleship-ruby (0.1.25)
+      addressable (~> 2.4)
       dotenv (~> 2.0, >= 2.0.2)
       link_header (~> 0.0.8)
       multi_json (~> 1.11, >= 1.11.2)
@@ -22,26 +22,49 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (4.2.6)
+    activesupport (5.0.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
-      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.8)
-    analytics-ruby (2.0.13)
+    addressable (2.4.0)
+    analytics-ruby (2.2.2)
+      commander (~> 4.4)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
+    celluloid (0.17.3)
+      celluloid-essentials
+      celluloid-extras
+      celluloid-fsm
+      celluloid-pool
+      celluloid-supervision
+      timers (>= 4.1.1)
+    celluloid-essentials (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-extras (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-fsm (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-io (0.17.3)
+      celluloid (>= 0.17.2)
+      nio4r (>= 1.1)
+      timers (>= 4.1.1)
+    celluloid-pool (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-supervision (0.20.6)
+      timers (>= 4.1.1)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
+    commander (4.4.0)
+      highline (~> 1.7.2)
+    concurrent-ruby (1.0.2)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.2.5)
     dotenv (2.1.1)
     equalizer (0.0.11)
-    eventmachine (1.2.0.1)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.2)
@@ -50,73 +73,69 @@ GEM
       faraday (~> 0.9.0)
       faraday_middleware (~> 0.9.1)
       oj (~> 2.0)
-    faye-websocket (0.10.3)
-      eventmachine (>= 0.12.0)
-      websocket-driver (>= 0.5.1)
-    foreman (0.78.0)
+    foreman (0.82.0)
       thor (~> 0.19.1)
-    giphy (2.0.2)
+    giphy (3.0.0)
       faraday (~> 0.9)
       faraday_middleware (~> 0.9)
       faraday_middleware-parse_oj (~> 0.3)
       launchy (~> 2.4)
-    gli (2.13.4)
-    hashie (3.4.4)
-    httparty (0.13.7)
-      json (~> 1.8)
+    gli (2.14.0)
+    hashie (3.4.6)
+    highline (1.7.8)
+    hitimes (1.2.4)
+    httparty (0.14.0)
       multi_xml (>= 0.5.2)
-    humanize (1.1.1)
+    humanize (1.1.2)
     i18n (0.7.0)
     ice_nine (0.11.2)
-    json (1.8.3)
+    json (2.0.2)
     launchy (2.4.3)
       addressable (~> 2.3)
     link_header (0.0.8)
-    minitest (5.8.4)
-    multi_json (1.12.0)
+    minitest (5.9.1)
+    multi_json (1.12.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    oj (2.15.0)
+    nio4r (1.2.1)
+    oj (2.17.5)
     oj_mimic_json (1.0.1)
     ordinalize (0.0.3)
       humanize
     plotly (0.0.1)
       json
-    puma (2.15.3)
+    puma (3.6.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (10.4.2)
+    rake (11.3.0)
     representable (2.3.0)
       uber (~> 0.0.7)
     roar (1.0.4)
       representable (>= 2.0.1, < 2.4.0)
-    rspec (3.4.0)
-      rspec-core (~> 3.4.0)
-      rspec-expectations (~> 3.4.0)
-      rspec-mocks (~> 3.4.0)
-    rspec-core (3.4.1)
-      rspec-support (~> 3.4.0)
-    rspec-expectations (3.4.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-mocks (3.4.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-support (3.4.1)
-    sinatra (1.4.6)
-      rack (~> 1.4)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    sinatra (1.4.7)
+      rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    slack-ruby-bot (0.7.0)
-      activesupport
-      faye-websocket
-      giphy (~> 2.0.2)
+    slack-ruby-bot (0.9.0)
       hashie
       slack-ruby-client (>= 0.6.0)
-    slack-ruby-client (0.7.1)
+    slack-ruby-client (0.7.7)
       activesupport
       faraday
       faraday_middleware
@@ -126,7 +145,9 @@ GEM
       websocket-driver
     thor (0.19.1)
     thread_safe (0.3.5)
-    tilt (2.0.2)
+    tilt (2.0.5)
+    timers (4.1.1)
+      hitimes
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uber (0.0.15)
@@ -135,7 +156,7 @@ GEM
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
-    websocket-driver (0.6.3)
+    websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
 
@@ -144,7 +165,9 @@ PLATFORMS
 
 DEPENDENCIES
   analytics-ruby
+  celluloid-io
   foreman
+  giphy
   googlestaticmap!
   httparty
   plotly (~> 0.0.1)
@@ -154,7 +177,7 @@ DEPENDENCIES
   rspec
   sinatra
   slack-ruby-bot
-  stattleship-ruby (= 0.1.17)!
+  stattleship-ruby (= 0.1.25)!
 
 BUNDLED WITH
    1.11.2

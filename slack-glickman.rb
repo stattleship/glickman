@@ -1,9 +1,8 @@
+require 'httparty'
 require 'googlestaticmap'
+require 'segment'
 require 'stattleship'
 require 'slack-ruby-bot'
-
-require 'slack-glickman/hooks/channel_joined'
-require 'slack-glickman/hooks/welcome'
 
 require 'slack-glickman/data/cache'
 require 'slack-glickman/stattleship/util/request_validator'
