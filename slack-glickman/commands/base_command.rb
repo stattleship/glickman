@@ -14,7 +14,7 @@ module SlackGlickman
                           })
         end
 
-        if ENV['OGLETHORPE_SLACK_API_TOKEN']
+        if ENV['OGLETHORPE_SLACK_API_TOKEN'].present?
           if text.nil? || text.length == 0
             message = text
           else

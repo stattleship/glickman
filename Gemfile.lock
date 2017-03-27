@@ -4,21 +4,6 @@ GIT
   specs:
     googlestaticmap (1.2.2)
 
-GIT
-  remote: https://github.com/stattleship/stattleship-ruby.git
-  revision: 3e55bafa31d5f24cd14096873027aec8218f12ae
-  specs:
-    stattleship-ruby (0.1.25)
-      addressable (~> 2.4)
-      dotenv (~> 2.0, >= 2.0.2)
-      link_header (~> 0.0.8)
-      multi_json (~> 1.11, >= 1.11.2)
-      oj (~> 2.14, >= 2.14.2)
-      oj_mimic_json (~> 1.0, >= 1.0.1)
-      ordinalize (~> 0.0.3)
-      roar (~> 1.0, >= 1.0.4)
-      virtus (~> 1.0, >= 1.0.5)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -143,6 +128,16 @@ GEM
       hashie
       json
       websocket-driver
+    stattleship-ruby (0.1.27)
+      addressable (~> 2.4)
+      dotenv (~> 2.0, >= 2.0.2)
+      link_header (~> 0.0.8)
+      multi_json (~> 1.11, >= 1.11.2)
+      oj (~> 2.14, >= 2.14.2)
+      oj_mimic_json (~> 1.0, >= 1.0.1)
+      ordinalize (~> 0.0.3)
+      roar (~> 1.0, >= 1.0.4)
+      virtus (~> 1.0, >= 1.0.5)
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.5)
@@ -177,7 +172,7 @@ DEPENDENCIES
   rspec
   sinatra
   slack-ruby-bot
-  stattleship-ruby (= 0.1.25)!
+  stattleship-ruby
 
 BUNDLED WITH
    1.11.2

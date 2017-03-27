@@ -11,7 +11,7 @@ gem 'plotly', '~> 0.0.1'
 gem 'slack-ruby-bot'
 gem 'puma'
 gem 'sinatra'
-gem 'stattleship-ruby', '0.1.25', git: 'https://github.com/stattleship/stattleship-ruby.git'
+gem 'stattleship-ruby'
 
 group :development, :test do
   gem 'rake'
