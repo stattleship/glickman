@@ -76,7 +76,7 @@ module SlackGlickman
           game_logs = const_get("Stattleship::#{sport.capitalize}GameLogs").fetch(params: query_params)
 
           if game_logs.size > 0
-            msg = game_logs.first.to_sentence
+            msg = game_logs.max_by { |log| log.game.timestamp }.to_sentence
             send_message client, data, ":#{statmoji}: #{msg}"
           else
             msg = 'Nothing to see here'
